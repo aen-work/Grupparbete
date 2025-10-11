@@ -1,0 +1,349 @@
+
+
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+}
+
+header{
+    background-color: rgb(168, 197, 226);
+    width: 100%;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+}
+
+.desktop{
+    display: none;
+}
+
+nav.mobile{
+    background-color: rgb(209, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+    align-items: center;
+}
+
+nav img{
+    width: 20px;
+    cursor: pointer;
+    padding: 15px 15px 7px 15px;
+}
+
+nav div a:not(li a) {
+    font-size: 40px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    max-width: 0;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li a{
+    font-size: 30px;
+    background-color: rgb(209, 208, 208);
+    border: 2px solid rgb(180, 180, 180);
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+
+.meny{
+    position: relative;
+    display: inline-block;
+
+}
+
+.ner{
+    background-color: rgb(209, 208, 208);
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(209, 208, 208);
+    min-width: 300px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    margin: 0;
+}
+
+.dropdown li a:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+.meny:hover .dropdown{
+    display: block;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 15px 15px;
+    background-color: rgb(168, 197, 226);
+    border: 2px solid rgb(151, 181, 226);
+    border-radius: 15px;
+    width: 300px;
+    
+    
+}
+
+main span {
+    background-image:
+        linear-gradient(to bottom, rgb(209, 208, 208), rgba(255, 255, 255, 0)),
+        url('../Pics/pettingdog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+main span div{
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+main span div a {
+    margin: 30px 40px;
+    background-color: rgb(233, 190, 129);
+    padding: 10px 40px;
+    border: 2px solid rgb(220, 170, 101);
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+main span div a:hover{
+    background-color: rgb(220, 170, 101);
+}
+
+.important img{
+    width: 100%;
+    display: block;
+}
+
+.important{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    display: inline-block;
+    
+}
+
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgb(209, 208, 208));
+    pointer-events: none;
+}
+
+.important button{
+    position: absolute;
+    align-self: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    background-color: rgb(233, 190, 129);
+    border: 2px solid rgb(220, 170, 101);
+    border-radius: 10px;
+    box-shadow: 10px black;
+    top: 45%;
+    left: 35%;
+    right: 35%;
+    bottom: 43%;
+}
+
+.important button:hover{
+    background-color: rgb(220, 170, 101);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(209, 208, 208);
+    padding-top: 30px;
+}
+
+.profilrev{
+    width: 70px;
+}
+
+.container-rev{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 40px 30px;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(207, 223, 238);
+    border: 2px solid rgb(151, 181, 226);
+    border-radius: 10px;
+    padding: 30px 30px;
+
+    margin: 20px;
+}
+
+.stars{
+    position: absolute;
+    left: 110px;
+    top: 70px;
+    width: 100px;
+}
+
+footer{
+    background-color: rgb(168, 197, 226);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.sociala img{
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer span {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 957px) {
+
+    header{
+        text-align: left;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    header img {
+        width: 250px;
+        padding-left: 30px;
+    }
+    nav{
+        background-color:rgb(209, 208, 208) ;
+        position: sticky;
+        top: 132px;
+        z-index: 1;
+        padding: 0;    
+    }
+    .meny{
+        display: none;
+    }
+    nav img {
+        display: none;
+    }
+    main span {
+        height: 800px;
+        justify-content: center;
+    }
+    span h1, span div{
+        margin: 50px;
+    }
+    h1{
+        padding: 20px 20px;
+    }
+    main span div a{
+        padding: 20px 60px ;
+    }
+    .desktop{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch ;
+    }
+    .containernav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+    }
+
+    .containernav a{
+        font-size: 20px;
+        margin: 0 30px;
+
+    }
+    .nav1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav1 a{
+        background-color: rgb(233, 190, 129);
+        padding: 10px 20px;
+        border: 2px solid rgb(220, 170, 101);
+        border-radius: 10px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .important button{
+        padding: 40px;
+        font-size: 40px;
+        border: 5px solid rgb(220, 170, 101);
+    }
+    .logo{
+        width: 280px;
+    }
+
+    .review{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
