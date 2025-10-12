@@ -1,0 +1,169 @@
+@import './colors';
+@import './header';
+@import './footer';
+@import './header_desktop';
+@import './footer_desktop';
+
+
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 15px 15px;
+    background-color: rgb(168, 197, 226);
+    border: 2px solid rgb(151, 181, 226);
+    border-radius: 15px;
+    width: 300px; 
+}
+
+main {
+    span {
+        background-image:
+            linear-gradient(to bottom, rgb(209, 208, 208), rgba(255, 255, 255, 0)),
+            url('../Pics/pettingdog.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 70vh;
+        div{
+            display: flex;
+            padding: 10px 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+}
+}
+
+main span div a{
+    margin: 30px 40px;
+    background-color: $Green;
+    padding: 10px 40px;
+    border: 2px solid $DarkGreen;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+
+main span div a:hover{
+    background-color: $DarkGreen;
+}
+
+
+.important{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    display: inline-block;
+    img{
+        width: 100%;
+        display: block;
+    }
+    button{
+    position: absolute;
+    align-self: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    background-color: $Green;
+    border: 2px solid $DarkGreen;
+    border-radius: 10px;
+    box-shadow: 10px black;
+    top: 45%;
+    left: 35%;
+    right: 35%;
+    bottom: 43%;
+    }
+}
+
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgb(209, 208, 208));
+    pointer-events: none;
+}
+
+
+.important button:hover{
+    background-color: $DarkGreen;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(209, 208, 208);
+    padding-top: 30px;
+}
+
+.profilrev{
+    width: 70px;
+}
+
+.container-rev{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 40px 30px;
+}
+
+.review{
+    display: flex;
+    justify-content: flex-start;   
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(207, 223, 238);
+    border: 2px solid rgb(151, 181, 226);
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin: 20px;
+}
+
+.stars{
+    position: absolute;
+    left: 110px;
+    top: 70px;
+    width: 100px;
+}
+
+
+
+@media (min-width: 957px) {
+
+    main span {
+        height: 80vh;
+        justify-content: center;
+        div a{
+            padding: 20px 60px ;
+        }
+    }
+    span h1, span div{
+        margin: 50px;
+    }
+    h1{
+        padding: 20px 20px;
+    }
+
+    .important button{
+        padding: 40px;
+        font-size: 40px;
+        border: 4px solid $DarkGreen;
+    }
+
+}
+
