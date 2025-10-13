@@ -6,16 +6,35 @@ header {
 header img {
   width: 200px;
 }
+span figure img {
+  width: 100%;
+}
 
-.desktop {
-  display: none;
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+
+span figure a {
+    position: absolute;
+    right: 0rem;
+    top: 5rem;
+    background-color: rgb(244, 202, 142);
+    border: 2px solid rgb(231, 188, 127);
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
 }
 
 nav.mobile {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: space-between;
-  padding: 0.4rem 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
   align-items: center;
 }
 
