@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color: rgb(209, 208, 208);
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
@@ -26,12 +26,6 @@ h1, h2{
 
 main {
     span {
-        background-image:
-            linear-gradient(to bottom, rgb(209, 208, 208), rgba(255, 255, 255, 0)),
-            url('../Pics/pettingdog.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         padding: 30px 30px;
         display: flex;
         flex-direction: column;
@@ -94,7 +88,7 @@ main span div a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgb(209, 208, 208));
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgb(255, 255, 255));
     pointer-events: none;
 }
 

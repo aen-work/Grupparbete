@@ -3,16 +3,18 @@ header {
   width: 100%;
   text-align: center;
 }
+
 header img {
   width: 200px;
 }
+
 
 .desktop {
   display: none;
 }
 
 nav.mobile {
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   padding: 0.4rem 2rem;
@@ -47,7 +49,7 @@ li {
 }
 li a {
   font-size: 30px;
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(255, 255, 255);
   border: 2px solid rgb(180, 180, 180);
   color: black;
   text-decoration: none;
@@ -61,7 +63,7 @@ li a {
 }
 
 .ner {
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(255, 255, 255);
   color: black;
   text-decoration: none;
   display: block;
@@ -70,7 +72,7 @@ li a {
 .dropdown {
   display: none;
   position: absolute;
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(255, 255, 255);
   min-width: 300px;
   z-index: 1;
   top: 100%;
@@ -120,7 +122,7 @@ footer span {
     padding-left: 30px;
   }
   nav {
-    background-color: rgb(209, 208, 208);
+    background-color: rgb(255, 255, 255);
     position: sticky;
     top: 131px;
     z-index: 1;
@@ -182,7 +184,7 @@ html {
 }
 
 body {
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(255, 255, 255);
   width: 100%;
 }
 
