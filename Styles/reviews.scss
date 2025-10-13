@@ -13,10 +13,6 @@ body{
     width: 100%;
 }
 
-.desktop1{
-    display: none;
-}
-
 h1, h2{
     text-align: center;
     padding: 15px 15px;
@@ -33,7 +29,7 @@ main{
 main .bg{
     background-image: url('/pics/bild\ med\ tjej\ och\ hund.jpg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: cover;
     width: 92%;
     padding: 30px;
@@ -47,7 +43,6 @@ main .bg{
 .reviews_con{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
     align-items: center;
     width: 100%;
     padding: 60px 30px;
@@ -65,19 +60,18 @@ main .bg{
     align-items: center;
     justify-content: center;
     background-color: rgb(198, 216, 234, 0.8);
-    padding: 30px 15px;
+    padding: 30px 20px;
     border: 2px solid rgb(161, 188, 215);
     border-radius: 10px;
-    flex: 0 0 100px;
 }
 
 .rev_2{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     position: relative;
+    width: 100%;
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 20px 40px;
     background-color: rgb(198, 216, 234, 0.8);
     border: 2px solid rgb(161, 188, 215);
     border-radius: 10px;
@@ -103,97 +97,15 @@ main .bg{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0 60px 0;
+    padding: 20px;
 }
 .brands{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 40px;
-    background-color: rgb(168, 197, 226);
+    padding: 30px;
 }
 
 .brand{
     width: 10%;
-    gap: 20px;
-}
-
-@media (min-width: 957px) {
-    main .bg{
-        display: none;
-    }
-
-    .desktop1{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .brand{
-        width: 80px;
-    }
-
-    .con1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .div123{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .image{
-        width: 50vh;
-        padding: 63px;
-    }
-
-    .div456{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .pri{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        min-width: 75%;
-        max-width: 75%;
-    }
-
-    .rev_2{
-        margin: 30px;
-    }
-
-    .con2 .rev_2{
-        width: 850px;
-    }
-
-    .con2{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .div78{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .div90{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .brands{
-        width: 100%;
-        padding: 20px 0;
-    }
 }
