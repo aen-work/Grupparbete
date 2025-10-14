@@ -1,0 +1,19 @@
+@use 'base';
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  .aboutUs {
+    align-self: center;
+  }
+}
+
+
+// article {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
