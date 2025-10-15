@@ -78,7 +78,7 @@ li a {
   margin: 0;
 }
 .dropdown li a:hover {
-  background-color: rgb(180, 180, 180);;
+  background-color: rgb(255, 255, 255);
 }
 
 .meny:hover .dropdown {
@@ -152,14 +152,14 @@ footer span {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(233, 190, 129);
+    background-color: rgb(73, 116, 73);
     padding: 10px 20px;
-    border: 2px solid rgb(220, 170, 101);
+    border: 2px solid rgb(41, 72, 41);
     border-radius: 10px;
     cursor: pointer;
   }
   .nav1 a:hover {
-    background-color: rgb(220, 170, 101);
+    background-color: rgb(41, 72, 41);
   }
   .nav2 {
     display: flex;
@@ -212,16 +212,16 @@ main span div {
 
 main span div a {
   margin: 30px 40px;
-  background-color: rgb(233, 190, 129);
+  background-color: rgb(73, 116, 73);
   padding: 10px 40px;
-  border: 2px solid rgb(220, 170, 101);
+  border: 2px solid rgb(41, 72, 41);
   border-radius: 10px;
   font-size: 25px;
   color: black;
 }
 
 main span div a:hover {
-  background-color: rgb(220, 170, 101);
+  background-color: rgb(41, 72, 41);
 }
 
 .important {
@@ -239,8 +239,8 @@ main span div a:hover {
   align-self: center;
   padding: 20px 30px;
   font-size: 25px;
-  background-color: rgb(233, 190, 129);
-  border: 2px solid rgb(220, 170, 101);
+  background-color: rgb(73, 116, 73);
+  border: 2px solid rgb(41, 72, 41);
   border-radius: 10px;
   box-shadow: 10px black;
   top: 45%;
@@ -260,7 +260,7 @@ main span div a:hover {
 }
 
 .important button:hover {
-  background-color: rgb(220, 170, 101);
+  background-color: rgb(41, 72, 41);
 }
 
 article {
@@ -318,6 +318,6 @@ article {
   .important button {
     padding: 40px;
     font-size: 40px;
-    border: 4px solid rgb(220, 170, 101);
+    border: 4px solid rgb(41, 72, 41);
   }
 }/*# sourceMappingURL=products.css.map */
