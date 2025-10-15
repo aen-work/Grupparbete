@@ -187,15 +187,42 @@ section .aboutUs {
   align-self: center;
 }
 
-.history {
+.history, .employees {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.history h3 {
+.history h3, .employees h3 {
   align-self: center;
 }
-.history img {
+.history .owners, .employees .owners {
   width: 365px;
+}
+.history .container-employee1, .employees .container-employee1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: solid grey;
+  width: 550px;
+  height: 400px;
+}
+.history .employee1, .employees .employee1 {
+  align-self: center;
+  width: 300px;
+  border-radius: 50%;
+}
+.history .container-employee1 h5, .employees .container-employee1 h5 {
+  font-size: 18px;
+}
+.history .employee2, .employees .employee2 {
+  width: 200px;
+  border-radius: 50%;
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
 }/*# sourceMappingURL=about.css.map */
