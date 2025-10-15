@@ -176,4 +176,17 @@ footer span {
     height: 5rem;
     margin-top: 50px;
   }
-}/*# sourceMappingURL=contact.css.map */
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+section .aboutUs {
+  align-self: center;
+}
+
+img {
+  width: 300px;
+}/*# sourceMappingURL=about.css.map */
