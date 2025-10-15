@@ -216,9 +216,9 @@ input[type=email], select, textarea {
 }
 
 button[type=submit] {
-  background-color: rgb(73, 116, 73);
+  background-color: rgb(244, 202, 142);
   padding: 10px;
-  border: 2px solid rgb(41, 72, 41);
+  border: 2px solid rgb(220, 170, 101);
   border-radius: 10px;
   font-size: 25px;
   color: black;
@@ -226,5 +226,17 @@ button[type=submit] {
 }
 
 button:hover {
-  background-color: rgb(74, 167, 74);
+  background-color: rgb(228, 245, 79); /* rgb(74, 167, 74);*/
+}
+
+.textbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=contact.css.map */
