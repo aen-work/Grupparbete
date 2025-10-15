@@ -1,4 +1,8 @@
-@use './base';
+@import './colors';
+@import './header';
+@import './footer';
+@import './header_desktop';
+@import './footer_desktop';
 
 html{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
