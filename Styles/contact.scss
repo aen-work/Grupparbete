@@ -1,0 +1,53 @@
+@use 'base';
+
+h1 {
+text-align: center;
+padding: 15px 15px;
+background-color: rgb(168, 197, 226);
+border: 2px solid rgb(151, 181, 226);
+border-radius: 15px;
+width: 300px;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px;
+font-family: Arial, sans-serif;
+}
+
+form {
+background-color: rgb(162, 161, 161);
+padding: 20px;
+border-radius: 5px;
+max-width: 400px;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+input[type="email"], select, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 16px;
+font-family: Arial, sans-serif;
+}
+
+button[type="submit"] {
+background-color: rgb(73, 116, 73);
+padding: 10px;
+border: 2px solid rgb(41, 72, 41);
+border-radius: 10px;
+font-size: 25px;
+color: black;
+cursor: pointer;
+}
+
+button:hover {
+background-color: rgb(74, 167, 74);
+}
