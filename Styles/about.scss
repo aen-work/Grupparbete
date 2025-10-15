@@ -1,5 +1,7 @@
 @use 'base';
 
+
+
 section {
   display: flex;
   justify-content: center;
@@ -10,9 +12,24 @@ section {
   }
 }
 
-img {
-  width: 300px;
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h3 {
+    align-self: center;
+  }
+  img {
+    width: 365px;
+  }
 }
+
+
+// img {
+//   width: 300px;
+// }
+
 
 
 // article {
