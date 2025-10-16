@@ -184,12 +184,14 @@ body {
 
 h1 {
   text-align: center;
-  padding: 15px 15px;
+  padding: 10px 20px;
   background-color: rgb(168, 197, 226);
   border: 2px solid rgb(151, 181, 226);
-  border-radius: 15px;
-  width: 300px;
+  border-radius: 10px;
+  width: 200px;
   margin: 0;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 section {
