@@ -5,16 +5,16 @@ margin: 0;
 padding: 0;
 }
 
+.contact-us {
+    text-decoration: underline;
+}
+
 h1 {
 text-align: center;
 padding: 10px 20px;
 background-color: rgb(168, 197, 226);
-border: 2px solid rgb(151, 181, 226);
-border-radius: 10px;
-width: 200px;
 margin: 0;
-font-size: 20px;
-text-decoration: underline;
+font-size: 24px;
 }
 
 section {
@@ -70,7 +70,7 @@ background-color: rgb(220,170,101);
 
 .textbox {
 width: 100%;
-border: 1px solid black;
+/*border: 1px solid black;*/
 border-radius: 4px;
 box-sizing: border-box;
 font-size: 18px;
