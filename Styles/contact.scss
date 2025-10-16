@@ -1,13 +1,20 @@
 @use 'base';
 
+body {
+margin: 0;
+padding: 0;
+}
+
+.contact-us {
+    text-decoration: underline;
+}
+
 h1 {
 text-align: center;
-padding: 15px 15px;
+padding: 10px 20px;
 background-color: rgb(168, 197, 226);
-border: 2px solid rgb(151, 181, 226);
-border-radius: 15px;
-width: 300px;
 margin: 0;
+font-size: 24px;
 }
 
 section {
@@ -15,7 +22,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin: 0;
-font-family: Arial, sans-serif;
+font-family: merriwhether, serif;
+font-size: 16px;
 }
 
 form {
@@ -50,18 +58,19 @@ background-color:  rgb(244,202,142);
 padding: 10px;
 border: 2px solid rgb(220, 170, 101);
 border-radius: 10px;
-font-size: 16px;
+font-size: 24px;
+font-family: merriwhether, serif;
 color: black;
 cursor: pointer;
 }
 
 button:hover {
-background-color: rgbrgb(220, 170, 101);
+background-color: rgb(220,170,101);
 }
 
 .textbox {
 width: 100%;
-border: 1px solid black;
+/*border: 1px solid black;*/
 border-radius: 4px;
 box-sizing: border-box;
 font-size: 18px;
