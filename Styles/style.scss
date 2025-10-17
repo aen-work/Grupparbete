@@ -1,12 +1,47 @@
-@import './base';
-@import './colors';
+header {
+  background-color: rgb(168, 197, 226);
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+span figure img {
+  width: 100%;
+}
 
-figure {
-  position: relative;
-  margin: 0;
-  h1{
-    background-color: $Blue;
-    padding: 20px;
+
+header {
+  background-color: rgb(168, 197, 226);
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+span figure img {
+  width: 100%;
+}
+
+.desktop{
+  display: none;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+
+span figure a {
+    position: absolute;
+    right: 5rem;
+    top: 15rem;
+    background-color: rgb(244, 202, 142);
+    border: 2px solid rgb(231, 188, 127);
+    border-radius: 50%;
+    padding: 40px;
     text-align: center;
   }
   img{
@@ -14,7 +49,7 @@ figure {
   }
   a{
     background-color: $Yellow;
-    border: 4px solid $DarkYellow;
+    border: 6px solid $DarkYellow;
     color: black;
     text-align: center;
     padding: 40px;
@@ -26,4 +61,3 @@ figure {
       background-color: $DarkYellow;
     }
   }
-}
