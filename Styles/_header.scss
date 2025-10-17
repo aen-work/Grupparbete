@@ -1,5 +1,3 @@
-
-
 header{
     background-color: rgb(168, 197, 226);
     width: 100%;
@@ -81,11 +79,82 @@ li{
     top: 100%;
     left: 0;
     margin: 0;
-    li a:hover{
-        background-color: rgb(255, 255, 255);
 }
+
+.dropdown li a:hover{
+    background-color: rgb(224, 221, 221);
 }
+
 
 .meny:hover .dropdown{
     display: block;
+}
+
+@import './colors';
+
+@media (min-width: 957px) {
+
+    header{
+        text-align: left;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    header img {
+        width: 250px;
+        padding-left: 30px;
+    }
+    nav{
+        background-color:rgb(255, 255, 255) ;
+        position: sticky;
+        top: 131px;
+        z-index: 1;
+        padding: 0;    
+    }
+    .meny{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch ;
+    }
+    .containernav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        a{
+            font-size: 20px;
+            margin: 0 30px;
+        }
+    }
+
+    .nav1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        a{
+            background-color: $Green;
+            padding: 10px 20px;
+            border: 2px solid $DarkGreen;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: $DarkGreen;
+            }
+        }
+    }
+
+    .nav2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    nav img {
+        display: none;
+    }
 }
