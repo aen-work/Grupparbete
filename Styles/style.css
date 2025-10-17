@@ -81,7 +81,7 @@ li a {
 }
 
 .dropdown li a:hover {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(208, 205, 205);
 }
 
 .meny:hover .dropdown {
@@ -212,39 +212,240 @@ span figure img {
   display: none;
 }
 
+.rev_2.pri {
+  display: none;
+}
+
 figure {
   display: flex;
   flex-direction: column;
   margin: 0;
   position: relative;
 }
-
-span figure a {
-  position: absolute;
-  right: 5rem;
-  top: 15rem;
-  background-color: rgb(244, 202, 142);
-  border: 2px solid rgb(231, 188, 127);
-  border-radius: 50%;
-  padding: 40px;
+figure h1 {
+  background-color: rgb(168, 197, 226);
+  padding: 10px;
   text-align: center;
+  font-size: 24px;
+  border-radius: 10px;
+}
+figure a {
+  background-color: rgb(233, 190, 129);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  border: 6px solid rgb(220, 170, 101);
+  position: absolute;
+  top: 14rem;
+  right: 5rem;
+  color: black;
+}
+figure a:hover {
+  background-color: rgb(220, 170, 101);
 }
 
-img {
+article {
+  position: relative;
+}
+article h2 {
+  text-align: center;
+  background-color: rgb(168, 197, 226);
+  padding: 10px;
+  border-radius: 10px;
+}
+article img {
   width: 100%;
 }
+article p {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 14rem;
+  left: 5rem;
+  color: white;
+}
 
-a {
-  background-color: rgb(233, 190, 129);
-  border: 6px solid rgb(220, 170, 101);
+.review-box {
+  padding: 20px;
+  text-align: center;
+}
+.review-box a {
+  color: black;
+  font-size: 24px;
+  background-color: rgb(168, 197, 226);
+  padding: 10px 50px;
+  border: 2px solid rgb(151, 181, 226);
+  border-radius: 10px;
+}
+
+.reviews_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rev_2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(198, 216, 234, 0.8);
+  border: 2px solid rgb(161, 188, 215);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.profil {
+  width: 120px;
+}
+
+.stars {
+  width: 150px;
+  position: absolute;
+  top: 6rem;
+  left: 9rem;
+}
+
+.trust a {
   color: black;
   text-align: center;
-  padding: 40px;
-  position: absolute;
-  border-radius: 50%;
-  top: 15rem;
-  right: 5rem;
+  background-color: rgb(168, 197, 226);
+  padding: 10px 50px;
+  font-size: 24px;
+  border: 2px solid rgb(151, 181, 226);
+  border-radius: 10px;
 }
-a:hover {
-  background-color: rgb(220, 170, 101);
+
+.trust {
+  background-color: rgb(209, 226, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.brand {
+  width: 10%;
+}
+
+@media (min-width: 957px) {
+  header {
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  header img {
+    width: 250px;
+    padding-left: 30px;
+  }
+  nav {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 131px;
+    z-index: 1;
+    padding: 0;
+  }
+  .meny {
+    display: none;
+  }
+  .rev_2.pri {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .containernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  .containernav a {
+    font-size: 20px;
+    margin: 0 30px;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .nav1 a {
+    background-color: rgb(233, 190, 129);
+    padding: 10px 20px;
+    border: 2px solid rgb(220, 170, 101);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .nav1 a:hover {
+    background-color: rgb(220, 170, 101);
+  }
+  .nav2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav img {
+    display: none;
+  }
+  figure h1 {
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+    width: 90%;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+  figure {
+    align-items: center;
+  }
+  figure a {
+    top: 20rem;
+    right: 7rem;
+    padding: 80px;
+    font-size: 35px;
+    width: 250px;
+  }
+  figure img {
+    width: 80vh;
+  }
+  article {
+    align-content: center;
+  }
+  article h2 {
+    font-size: 50px;
+    width: 50%;
+  }
+  .reviews_cont {
+    display: flex;
+  }
+  .rev_2 {
+    margin: 20px;
+  }
+  .rev_2 .profil {
+    width: 120px;
+  }
+  .rev_2.pri {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

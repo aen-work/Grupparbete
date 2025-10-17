@@ -79,7 +79,7 @@ li a {
 }
 
 .dropdown li a:hover {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(208, 205, 205);
 }
 
 .meny:hover .dropdown {
