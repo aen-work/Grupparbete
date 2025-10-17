@@ -211,6 +211,19 @@ figure h1 {
 }
 figure img {
   width: 100%;
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+nav img {
+  width: 20px;
+  cursor: pointer;
+  padding: 15px 15px 7px 15px;
+}
+
+nav div a:not(li a) {
+  font-size: 40px;
+  color: black;
 }
 figure a {
   background-color: rgb(233, 190, 129);
