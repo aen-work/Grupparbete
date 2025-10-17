@@ -3,6 +3,7 @@ header {
   width: 100%;
   text-align: center;
 }
+
 header img {
   width: 200px;
 }
@@ -45,6 +46,7 @@ li {
   margin: 0;
   list-style: none;
 }
+
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -77,8 +79,9 @@ li a {
   left: 0;
   margin: 0;
 }
+
 .dropdown li a:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(224, 221, 221);
 }
 
 .meny:hover .dropdown {

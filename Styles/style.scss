@@ -1,3 +1,6 @@
+@use './base';
+
+
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
@@ -10,6 +13,10 @@ span figure img {
   width: 50vh;
 }
 
+.desktop{
+  display: none;
+}
+
 figure{
     display: flex;
     flex-direction: column;
@@ -19,14 +26,14 @@ figure{
 
 span figure a {
     position: absolute;
-    right: 0rem;
-    top: 5rem;
+    right: 5rem;
+    top: 15rem;
     background-color: rgb(244, 202, 142);
     border: 2px solid rgb(231, 188, 127);
     border-radius: 50%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
-    font-size: 12px;
+    font-size: 22px;
     color: black;
 }
 
@@ -36,6 +43,12 @@ nav.mobile {
     justify-content: space-between;
     padding: 0.4rem 2rem;
   align-items: center;
+}
+
+figure h1{
+  width: 100%;
+  font-size: 22px;
+  padding: 20px 0;
 }
 
 nav img {
