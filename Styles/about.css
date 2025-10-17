@@ -130,14 +130,14 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(73, 116, 73);
+    background-color: rgb(233, 190, 129);
     padding: 10px 20px;
-    border: 2px solid rgb(41, 72, 41);
+    border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
     cursor: pointer;
   }
   .nav1 a:hover {
-    background-color: rgb(41, 72, 41);
+    background-color: rgb(220, 170, 101);
   }
   .nav2 {
     display: flex;

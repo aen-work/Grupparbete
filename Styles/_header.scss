@@ -137,13 +137,13 @@ li{
         justify-content: flex-start;
         align-items: center;
         a{
-            background-color: $Green;
+            background-color: $Yellow;
             padding: 10px 20px;
-            border: 2px solid $DarkGreen;
+            border: 2px solid $DarkYellow;
             border-radius: 10px;
             cursor: pointer;
             &:hover{
-                background-color: $DarkGreen;
+                background-color: $DarkYellow;
             }
         }
     }
