@@ -3,6 +3,7 @@ header {
   width: 100%;
   text-align: center;
 }
+
 header img {
   width: 200px;
 }
@@ -45,6 +46,7 @@ li {
   margin: 0;
   list-style: none;
 }
+
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -79,34 +81,11 @@ li a {
 }
 
 .dropdown li a:hover {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(208, 205, 205);
 }
 
 .meny:hover .dropdown {
   display: block;
-}
-
-footer {
-  background-color: rgb(168, 197, 226);
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-}
-
-.logo {
-  width: 130px;
-}
-
-.sociala img {
-  width: 30px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-footer span {
-  display: flex;
-  justify-content: space-between;
 }
 
 @media (min-width: 957px) {
@@ -171,6 +150,29 @@ footer span {
     display: none;
   }
 }
+footer {
+  background-color: rgb(168, 197, 226);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.sociala img {
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+footer span {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 957px) {
   .logo {
     width: 10rem;
