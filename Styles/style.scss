@@ -10,12 +10,38 @@ span figure img {
   width: 100%;
 }
 
-figure {
-  position: relative;
-  margin: 0;
-  h1{
-    background-color: $Blue;
-    padding: 20px;
+
+header {
+  background-color: rgb(168, 197, 226);
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+span figure img {
+  width: 100%;
+}
+
+.desktop{
+  display: none;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+
+span figure a {
+    position: absolute;
+    right: 5rem;
+    top: 15rem;
+    background-color: rgb(244, 202, 142);
+    border: 2px solid rgb(231, 188, 127);
+    border-radius: 50%;
+    padding: 40px;
     text-align: center;
   }
   img{
@@ -35,53 +61,3 @@ figure {
       background-color: $DarkYellow;
     }
   }
-}
-article{
-  position: relative;
-  h2{
-    background-color: $Blue;
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
-    margin: 0;
-  }
-  img{
-    width: 100%;
-  }
-  p{
-    background-color: rgba(0, 0, 0 ,0.4);
-    color: white;
-    padding: 20px;
-    position: absolute;
-    top: 10rem;
-    left: 10rem;
-  }
-}
-
-.trust{
-    background-color: rgb(209, 226, 243);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    margin: 20px 0;
-    a{
-      background-color: $DarkBlue;
-      text-align: center;
-      padding: 20px 60px;
-      border-radius: 10px;
-      font-size: 25px;
-      color: black;
-    }
-}
-.brands{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-}
-
-.brand{
-    width: 10%;
-}
