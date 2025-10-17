@@ -1,5 +1,14 @@
-@import './base';
-@import './colors';
+header {
+  background-color: rgb(168, 197, 226);
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+span figure img {
+  width: 50vh;
+}
 
 figure {
   position: relative;
