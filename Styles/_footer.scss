@@ -20,3 +20,12 @@ footer span {
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 957px) {
+    .logo{
+            width: 10rem;
+            height: 5rem;
+            margin-top: 50px;
+        }
+    }
+    
