@@ -81,10 +81,12 @@ li{
     top: 100%;
     left: 0;
     margin: 0;
-    li a:hover{
-        background-color: rgb(255, 255, 255);
 }
+
+.dropdown li a:hover{
+    background-color: rgb(224, 221, 221);
 }
+
 
 .meny:hover .dropdown{
     display: block;
