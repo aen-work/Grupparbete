@@ -180,11 +180,103 @@ footer span {
     margin-top: 50px;
   }
 }
+header {
+  background-color: rgb(168, 197, 226);
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+}
+
+span figure img {
+  width: 100%;
+}
+
+.desktop {
+  display: none;
+}
+
 figure {
   position: relative;
   margin: 0;
 }
 figure h1 {
+  width: 100%;
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+nav img {
+  width: 20px;
+  cursor: pointer;
+  padding: 15px 15px 7px 15px;
+}
+
+nav div a:not(li a) {
+  font-size: 40px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li a {
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(180, 180, 180);
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.meny {
+  position: relative;
+  display: inline-block;
+}
+
+.ner {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 300px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin: 0;
+}
+
+.dropdown li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.meny:hover .dropdown {
+  display: block;
+}
+
+footer {
   background-color: rgb(168, 197, 226);
   padding: 20px;
   text-align: center;
