@@ -180,170 +180,134 @@ footer span {
     margin-top: 50px;
   }
 }
-html {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 body {
   background-image: url("../Pics/body.jpg");
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   margin: 0;
-  height: 100%;
 }
 
-h1, h2 {
-  text-align: center;
-  padding: 15px 15px;
+nav {
+  z-index: 1;
+}
+
+article {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+}
+article .main1 {
+  display: flex;
+  position: relative;
+}
+article a {
+  color: black;
+  font-size: 40px;
   background-color: rgb(168, 197, 226);
   border: 2px solid rgb(151, 181, 226);
-  border-radius: 15px;
-  width: 300px;
-}
-
-.desktop {
-  display: none;
-}
-
-.desktop1 {
-  display: none;
-}
-
-main .bg {
-  padding: 30px;
-  margin: 30px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.reviews_con {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  padding: 60px 30px;
-}
-
-.reviews_cont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rev_1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(198, 216, 234, 0.8);
-  padding: 30px 20px;
-  border: 2px solid rgb(161, 188, 215);
   border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  z-index: 3;
+  margin-left: 30px;
 }
-.rev_1 p:first-of-type {
-  font-weight: bold;
+article a:hover {
+  background-color: rgb(151, 181, 226);
 }
-
-.rev_2 {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  border-radius: 20px;
-  padding: 20px 40px;
-  background-color: rgba(198, 216, 234, 0.8);
-  border: 2px solid rgb(161, 188, 215);
+article h2 {
+  background-color: rgb(233, 190, 129);
+  border: 2px solid rgb(220, 170, 101);
+  width: 50%;
+  text-align: center;
+  padding: 9px 15px;
   border-radius: 10px;
-  margin: 20px 0;
-}
-.rev_2 p:first-of-type {
-  font-weight: bold;
-  padding: 40px 0 0 15px;
-}
-
-.profil {
-  width: 120px;
-}
-
-.stars {
-  width: 150px;
-}
-
-.abs {
   position: absolute;
-  top: 90px;
-  left: 170px;
+  left: 14rem;
 }
 
-.trust {
-  background-color: rgb(209, 226, 243);
+.main2 {
+  display: flex;
+  margin: 20px 0;
+  position: relative;
+  align-items: flex-start;
+}
+.main2 p {
+  color: black;
+}
+.main2 img {
+  width: 70%;
+}
+.main2 .text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  text-align: center;
 }
 
-.brands {
+main article ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 30px;
+  align-content: center;
+  align-items: stretch;
+}
+main article ul li {
+  margin: 5px 10px;
+  text-align: center;
+  background-color: rgb(168, 197, 226);
+  border: 2px solid rgb(151, 181, 226);
+  border-radius: 10px;
+  padding: 15px;
 }
 
-.brand {
-  width: 10%;
+.gradient2 {
+  position: absolute;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgb(255, 255, 255));
+  top: 0;
+  left: 0;
+  width: 71%;
+  height: 101%;
+  pointer-events: none;
 }
 
-@media (min-width: 957px) {
-  main .mobile {
-    display: none;
-  }
-  main .bg {
-    display: none;
-  }
-  body nav.desktop {
-    display: flex;
-  }
-  main .desktop1 {
-    display: flex;
-    flex-direction: column;
-  }
-  main .desktop1 .con1 {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 30px;
-  }
-  .div456 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .div456 img {
-    max-width: 600px;
-  }
-  .div123 {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .div123 .rev_2 {
-    margin: 20px 0;
-  }
-  .con2 {
-    margin: 0 120px;
-    margin-bottom: 20px;
-  }
-  body {
-    background-image: url("../Pics/body.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-  }
-}/*# sourceMappingURL=reviews.css.map */
+.important {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  display: inline-block;
+}
+.important img {
+  width: 100%;
+  display: block;
+}
+.important a {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  background-color: rgb(233, 190, 129);
+  border: 2px solid rgb(220, 170, 101);
+  border-radius: 10px;
+  top: 41%;
+  left: 30%;
+  right: 30%;
+  bottom: 41%;
+  padding: 20px 20px;
+}
+.important a:hover {
+  background-color: rgb(220, 170, 101);
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgb(255, 255, 255));
+  pointer-events: none;
+}/*# sourceMappingURL=doggydaycare.css.map */
