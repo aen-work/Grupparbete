@@ -178,6 +178,10 @@ footer span {
     margin-top: 50px;
   }
 }
+* {
+  font-family: "Merriweather";
+}
+
 section {
   display: flex;
   justify-content: center;
