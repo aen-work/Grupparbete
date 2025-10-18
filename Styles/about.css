@@ -207,9 +207,7 @@ section .aboutUs {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  border-bottom: solid grey;
   gap: 2px;
-  padding: 30px;
 }
 .history > div > img, .employees > div > img {
   width: 250px;
@@ -217,4 +215,17 @@ section .aboutUs {
   aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.readMore {
+  background-color: rgb(110, 110, 201);
+  border-radius: 20px;
+  padding: 10px;
+}
+.readMore :first-child {
+  color: white;
+}
+
+.readMore:hover {
+  background-color: rgb(121, 121, 200);
 }/*# sourceMappingURL=about.css.map */

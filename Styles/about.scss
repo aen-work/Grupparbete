@@ -30,9 +30,9 @@ section {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  border-bottom: solid grey;
+  // border-bottom: solid grey;
   gap: 2px;
-  padding: 30px;
+  // padding: 30px;
   
   > img {
     width: 250px;
@@ -43,3 +43,16 @@ section {
 }
 }
 
+.readMore {
+  background-color: rgb(110, 110, 201);
+  border-radius: 20px;
+  padding: 10px;
+
+  :first-child {
+    color: white;
+  }
+}
+
+.readMore:hover {
+  background-color: rgb(121, 121, 200);
+}
