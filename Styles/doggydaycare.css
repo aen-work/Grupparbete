@@ -1,3 +1,7 @@
+html {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
