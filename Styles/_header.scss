@@ -1,3 +1,7 @@
+html{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
+
 header{
     background-color: rgb(168, 197, 226);
     width: 100%;
@@ -47,7 +51,7 @@ li{
     a{
         font-size: 30px;
         background-color: rgb(255, 255, 255);
-        border: 2px solid rgb(180, 180, 180);
+        border: 2px solid rgb(232, 232, 232);
         color: black;
         text-decoration: none;
         display: block;
@@ -59,7 +63,6 @@ li{
 .meny{
     position: relative;
     display: inline-block;
-
 }
 
 .ner{
@@ -82,7 +85,7 @@ li{
 }
 
 .dropdown li a:hover{
-    background-color: rgb(208, 205, 205);
+    background-color: rgb(232, 232, 232);
 }
 
 
@@ -137,13 +140,13 @@ li{
         justify-content: flex-start;
         align-items: center;
         a{
-            background-color: $Green;
+            background-color: $Yellow;
             padding: 10px 20px;
-            border: 2px solid $DarkGreen;
+            border: 2px solid $DarkYellow;
             border-radius: 10px;
             cursor: pointer;
             &:hover{
-                background-color: $DarkGreen;
+                background-color: $DarkYellow;
             }
         }
     }
