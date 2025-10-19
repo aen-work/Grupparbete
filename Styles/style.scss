@@ -1,5 +1,17 @@
-@import './base';
-@import './colors';
+@import "./base";
+@import "./colors";
+
+header {
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+span figure img {
+  width: 100%;
+}
 
 
 header {
@@ -18,37 +30,243 @@ span figure img {
   display: none;
 }
 
+.rev_2.pri{
+  display: none;
+}
+
 figure{
     display: flex;
     flex-direction: column;
     margin: 0;
     position: relative;
+    h1{
+      background-color: $Blue;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 10px;
+    }
+    a{
+      background-color: $Yellow;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 50%;
+      width: 150px;
+      border: 6px solid $DarkYellow;
+      position: absolute;
+      top: 14rem;
+      right: 5rem;
+      color: black;
+      &:hover{
+        background-color: $DarkYellow;
+      }
+    }
 }
 
-span figure a {
-    position: absolute;
-    right: 5rem;
-    top: 15rem;
-    background-color: rgb(244, 202, 142);
-    border: 2px solid rgb(231, 188, 127);
-    border-radius: 50%;
-    padding: 40px;
-    text-align: center;
+article{
+  position: relative;
+  h2{
+      text-align: center;
+      background-color: $Blue;
+      padding: 10px;
+      border-radius: 10px;
   }
   img{
-    width: 100%;
+      width: 100%;
   }
-  a{
-    background-color: $Yellow;
-    border: 4px solid $DarkYellow;
-    color: black;
-    text-align: center;
-    padding: 40px;
+  p{
     position: absolute;
-    border-radius: 50%;
-    top: 15rem;
-    right: 5rem;
-    &:hover{
-      background-color: $DarkYellow;
-    }
+    background-color: rgba(0,0,0,0.5);
+    top: 14rem;
+    left: 5rem;
+    color: white;
   }
+}
+
+.review-box {
+  padding: 20px;
+  text-align: center;
+  a{
+    color: black;
+    font-size: 24px;
+      background-color: $Blue;
+      padding: 10px 50px;
+      border: 2px solid $DarkBlue;
+      border-radius: 10px;
+  }
+}
+.reviews_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rev_2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(198, 216, 234, 0.8);
+    border: 2px solid rgb(161, 188, 215);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.profil{
+    width: 120px;
+}
+
+.stars{
+    width: 150px;
+    position: absolute;
+    top: 6rem;
+    left: 9rem;
+}
+
+.trust a{
+  color: black;
+  text-align: center;
+  background-color: $Blue;
+  padding: 10px 50px;
+  font-size: 24px;
+  border: 2px solid $DarkBlue ;
+  border-radius: 10px;
+}
+.trust{
+    background-color: rgb(209, 226, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.brand{
+    width: 10%;
+}
+
+@media (min-width: 957px) {
+    header{
+        text-align: left;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    header img {
+        width: 250px;
+        padding-left: 30px;
+    }
+    nav{
+        background-color:rgb(255, 255, 255) ;
+        position: sticky;
+        top: 131px;
+        z-index: 1;
+        padding: 0;    
+    }
+    .meny{
+        display: none;
+    }
+    .rev_2.pri{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .desktop{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch ;
+    }
+    .containernav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        a{
+            font-size: 20px;
+            margin: 0 30px;
+        }
+    }
+
+    .nav1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        a{
+            background-color: $Yellow;
+            padding: 10px 20px;
+            border: 2px solid $DarkYellow;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+              background-color: $DarkYellow;
+            }
+        }
+    }
+
+    .nav2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    nav img {
+        display: none;
+    }
+
+    figure h1{
+      font-size: 60px;
+      margin-top: 40px;
+      text-align: center;
+      width: 90%;
+      padding: 20px 0 ;
+      margin-bottom: 10px;
+    }
+    figure{
+      align-items: center;
+      a {
+        top: 20rem;
+        right: 7rem;
+        padding: 80px;
+        font-size: 35px;
+        width: 250px;
+      }
+      img{
+        width: 80vh;
+      }
+    }
+    article{
+      align-content: center;
+      h2{
+        font-size: 50px;
+        width: 50%;
+      }
+    }
+    .reviews_cont{
+      display: flex;
+
+    }
+    .rev_2{
+      margin: 20px;
+    }
+    .rev_2 .profil{
+      width: 120px;
+    }
+    .rev_2.pri{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+}

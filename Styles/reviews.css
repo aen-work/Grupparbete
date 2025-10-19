@@ -1,3 +1,7 @@
+html {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
@@ -50,7 +54,7 @@ li {
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(180, 180, 180);
+  border: 2px solid rgb(232, 232, 232);
   color: black;
   text-decoration: none;
   display: block;
@@ -81,7 +85,7 @@ li a {
 }
 
 .dropdown li a:hover {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(232, 232, 232);
 }
 
 .meny:hover .dropdown {
@@ -132,14 +136,14 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(73, 116, 73);
+    background-color: rgb(233, 190, 129);
     padding: 10px 20px;
-    border: 2px solid rgb(41, 72, 41);
+    border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
     cursor: pointer;
   }
   .nav1 a:hover {
-    background-color: rgb(41, 72, 41);
+    background-color: rgb(220, 170, 101);
   }
   .nav2 {
     display: flex;
@@ -180,13 +184,13 @@ footer span {
     margin-top: 50px;
   }
 }
-html {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 body {
-  background-color: rgb(255, 255, 255);
-  width: 100%;
+  background-image: url("../Pics/body.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100%;
 }
 
 h1, h2 {
@@ -198,16 +202,15 @@ h1, h2 {
   width: 300px;
 }
 
-main {
-  background-color: white;
+.desktop {
+  display: none;
+}
+
+.desktop1 {
+  display: none;
 }
 
 main .bg {
-  background-image: url("/pics/bild med tjej och hund.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 92%;
   padding: 30px;
   margin: 30px 0;
   display: flex;
@@ -240,17 +243,24 @@ main .bg {
   border: 2px solid rgb(161, 188, 215);
   border-radius: 10px;
 }
+.rev_1 p:first-of-type {
+  font-weight: bold;
+}
 
 .rev_2 {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 100%;
   border-radius: 20px;
   padding: 20px 40px;
   background-color: rgba(198, 216, 234, 0.8);
   border: 2px solid rgb(161, 188, 215);
   border-radius: 10px;
+  margin: 20px 0;
+}
+.rev_2 p:first-of-type {
+  font-weight: bold;
+  padding: 40px 0 0 15px;
 }
 
 .profil {
@@ -274,6 +284,7 @@ main .bg {
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .brands {
@@ -285,4 +296,54 @@ main .bg {
 
 .brand {
   width: 10%;
+}
+
+@media (min-width: 957px) {
+  main .mobile {
+    display: none;
+  }
+  main .bg {
+    display: none;
+  }
+  body nav.desktop {
+    display: flex;
+  }
+  main .desktop1 {
+    display: flex;
+    flex-direction: column;
+  }
+  main .desktop1 .con1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30px;
+  }
+  .div456 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div456 img {
+    max-width: 600px;
+  }
+  .div123 {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div123 .rev_2 {
+    margin: 20px 0;
+  }
+  .con2 {
+    margin: 0 120px;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: url("../Pics/body.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
 }/*# sourceMappingURL=reviews.css.map */

@@ -48,7 +48,7 @@ li {
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(180, 180, 180);
+  border: 2px solid rgb(232, 232, 232);
   color: black;
   text-decoration: none;
   display: block;
@@ -79,7 +79,7 @@ li a {
 }
 
 .dropdown li a:hover {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(232, 232, 232);
 }
 
 .meny:hover .dropdown {
@@ -130,14 +130,14 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(73, 116, 73);
+    background-color: rgb(233, 190, 129);
     padding: 10px 20px;
-    border: 2px solid rgb(41, 72, 41);
+    border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
     cursor: pointer;
   }
   .nav1 a:hover {
-    background-color: rgb(41, 72, 41);
+    background-color: rgb(220, 170, 101);
   }
   .nav2 {
     display: flex;
@@ -178,6 +178,10 @@ footer span {
     margin-top: 50px;
   }
 }
+* {
+  font-family: "Merriweather";
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -193,6 +197,7 @@ section .aboutUs {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 15px;
 }
 .history h3, .employees h3 {
   align-self: center;
@@ -206,9 +211,7 @@ section .aboutUs {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  border-bottom: solid grey;
   gap: 2px;
-  padding: 30px;
 }
 .history > div > img, .employees > div > img {
   width: 250px;
@@ -216,4 +219,17 @@ section .aboutUs {
   aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.readMore {
+  background-color: rgb(110, 110, 201);
+  border-radius: 20px;
+  padding: 10px;
+}
+.readMore :first-child {
+  color: white;
+}
+
+.readMore:hover {
+  background-color: rgb(121, 121, 200);
 }/*# sourceMappingURL=about.css.map */
