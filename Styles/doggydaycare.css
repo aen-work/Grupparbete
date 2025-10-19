@@ -136,7 +136,7 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(233, 190, 129);
+    background-color: rgb(244, 202, 142);
     padding: 10px 20px;
     border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
@@ -234,7 +234,7 @@ article a:hover {
   background-color: rgb(151, 181, 226);
 }
 article h2 {
-  background-color: rgb(233, 190, 129);
+  background-color: rgb(244, 202, 142);
   border: 2px solid rgb(220, 170, 101);
   width: 50%;
   text-align: center;
@@ -313,7 +313,7 @@ main .lista p {
   text-align: center;
   color: black;
   font-size: 28px;
-  background-color: rgb(233, 190, 129);
+  background-color: rgb(244, 202, 142);
   border: 2px solid rgb(220, 170, 101);
   border-radius: 10px;
   top: 41%;
