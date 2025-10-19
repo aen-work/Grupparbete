@@ -30,7 +30,7 @@ span figure img {
   display: none;
 }
 
- .rev_2.pri{
+.rev_2.pri{
   display: none;
 }
 
@@ -156,7 +156,7 @@ article{
 }
 
 @media (min-width: 957px) {
-     header{
+    header{
         text-align: left;
         position: sticky;
         top: 0;
@@ -181,6 +181,7 @@ article{
       flex-wrap: wrap;
       padding: 20px;
     }
+
     .desktop{
         display: flex;
         flex-direction: column;
@@ -210,7 +211,7 @@ article{
             border-radius: 10px;
             cursor: pointer;
             &:hover{
-                background-color: $DarkYellow;
+              background-color: $DarkYellow;
             }
         }
     }
