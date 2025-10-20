@@ -7,7 +7,6 @@ header {
   width: 100%;
   text-align: center;
 }
-
 header img {
   width: 200px;
 }
@@ -50,7 +49,6 @@ li {
   margin: 0;
   list-style: none;
 }
-
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -183,6 +181,10 @@ footer span {
     height: 5rem;
     margin-top: 50px;
   }
+}
+@font-face {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
 }
 body {
   background-image: url("../Pics/body.jpg");
