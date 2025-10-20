@@ -1,3 +1,4 @@
-@use './colors';
-@use './header';
-@use './footer';
+@import './colors';
+@import './header';
+@import './footer';
+@import 'mixin';
