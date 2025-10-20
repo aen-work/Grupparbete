@@ -1,5 +1,9 @@
-@use 'base';
-@import 'font-face';
+@import 'base';
+@import 'mixin';
+
+* {
+  @include mixin;
+}
 
 section {
   display: flex;
