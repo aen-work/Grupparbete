@@ -15,6 +15,7 @@
 .history, .employees {
   @include flexPrimary(space-between);
   margin: 15px;
+  gap: 20px;
   h3 {
     align-self: center;
   }
