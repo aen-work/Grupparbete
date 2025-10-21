@@ -19,15 +19,3 @@
 }
 
 
-@mixin btn() {
-  background: $yellow;
-  border: $darkYellow;
-  border-radius: 50px;
-  padding: 20px;
-  &:hover {
-    background: $lightYellow;
-  }
-  :first-child {
-    color: $black;
-  }
-}
