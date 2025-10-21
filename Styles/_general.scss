@@ -1,18 +1,21 @@
+@import './variables';
+
 * {
     font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 
-// 
+// Här är linken man ska lägga in på html 
+// <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  //
 
 btn {
-    background-color: $Yellow;
+    background-color: $yellow;
     text-align: center;
     border-radius: 10px;
-    border: 2px solid $DarkYellow;
+    border: 2px solid $darkYellow;
     color: black;
     &:hover{
-        background-color: $DarkYellow;
+        background-color: $darkYellow;
     }
 }
 
@@ -21,7 +24,6 @@ btn {
 // HÄR! osäker hur vi ska ha!
 
 // @media (min-width: 957px){
-//     * {
 //         height: 80vh; 
 //         justify-content: center;
 //     }

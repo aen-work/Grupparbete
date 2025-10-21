@@ -1,19 +1,6 @@
 @import "./base";
-@import "./colors";
 
-header {
-  background-color: rgb(199, 199, 199);
-  width: 100%;
-  text-align: center;
-}
-header img {
-  width: 200px;
-}
-span figure img {
-  width: 100%;
-}
-
-
+/* Vi har redan denna stilen i base.scss från header, så den är onödig här
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
@@ -28,7 +15,7 @@ span figure img {
 
 .desktop{
   display: none;
-}
+} */
 
 .rev_2.pri{
   display: none;
@@ -40,26 +27,26 @@ figure{
     margin: 0;
     position: relative;
     h1{
-      background-color: $Blue;
+      background-color: $blue;
       padding: 10px;
       text-align: center;
       font-size: 24px;
       border-radius: 10px;
     }
     a{
-      background-color: $Yellow;
+      background-color: $yellow;
       padding: 20px;
       font-size: 20px;
       text-align: center;
       border-radius: 50%;
       width: 150px;
-      border: 6px solid $DarkYellow;
+      border: 6px solid $darkYellow;
       position: absolute;
       top: 14rem;
       right: 5rem;
       color: black;
       &:hover{
-        background-color: $DarkYellow;
+        background-color: $darkYellow;
       }
     }
 }
@@ -68,7 +55,7 @@ article{
   position: relative;
   h2{
       text-align: center;
-      background-color: $Blue;
+      background-color: $blue;
       padding: 10px;
       border-radius: 10px;
   }
@@ -90,9 +77,9 @@ article{
   a{
     color: black;
     font-size: 24px;
-      background-color: $Blue;
+      background-color: $blue;
       padding: 10px 50px;
-      border: 2px solid $DarkBlue;
+      border: 2px solid $darkBlue;
       border-radius: 10px;
   }
 }
@@ -129,10 +116,10 @@ article{
 .trust a{
   color: black;
   text-align: center;
-  background-color: $Blue;
+  background-color: $blue;
   padding: 10px 50px;
   font-size: 24px;
-  border: 2px solid $DarkBlue ;
+  border: 2px solid $darkBlue ;
   border-radius: 10px;
 }
 .trust{
@@ -205,13 +192,13 @@ article{
         justify-content: flex-start;
         align-items: center;
         a{
-            background-color: $Yellow;
+            background-color: $yellow;
             padding: 10px 20px;
-            border: 2px solid $DarkYellow;
+            border: 2px solid $darkYellow;
             border-radius: 10px;
             cursor: pointer;
             &:hover{
-              background-color: $DarkYellow;
+              background-color: $darkYellow;
             }
         }
     }
