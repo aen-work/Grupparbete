@@ -1,21 +1,17 @@
 // HÄR allt som går att mixa!
 
 @mixin flexPrimary($justify-content) {
-    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: $justify-content;
     align-items: center;
-    height: 70vh;
 }
 
 @mixin flexDirection($flex-direction) {
-    padding: 30px 30px;
     display: flex;
     flex-direction: $flex-direction;
     justify-content: center;
     align-items: center;
-    height: 70vh;
 }
 
 
