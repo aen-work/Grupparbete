@@ -4,13 +4,13 @@
 @import './general';
 
 
-section {
-  @include flexPrimary(center);
-  // height: 25px;
-  .aboutUs {
-    align-self: center;
-  }
-}
+// section {
+//   @include flexPrimary(center);
+//   // height: 25px;
+//   .aboutUs {
+//     align-self: center;
+//   }
+// }
 
 .history, .employees {
   @include flexPrimary(space-between);
