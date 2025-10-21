@@ -12,7 +12,7 @@ padding: 0;
 h1 {
 text-align: center;
 padding: 10px 20px;
-background-color: $Blue;
+background-color: $blue;
 margin: 0;
 font-size: 24px;
 }
@@ -32,22 +32,22 @@ font-size: 16px;
 }
 
 form {
-background-color: $Grey;
-border: 1 px solid $DarkBlue;
+background-color: $grey;
+border: 1 px solid $darkBlue;
 padding: 20px;
 border-radius: 5px;
 max-width: 400px;
+min-width: 275px;
 display: flex;
 flex-direction: column;
 margin: 20px;
-width: 100%;
-box-shadow: 2px 4px 4px -4px $Black;
+box-shadow: 2px 4px 4px -4px $black;
 }
 
 input[type="email"], select, textarea {
 width: 100%;
 padding: 10px;
-border: 1px solid $Black;
+border: 1px solid $black;
 border-radius: 4px;
 box-sizing: border-box;
 font-size: 16px;
@@ -59,9 +59,9 @@ font-size: 18px;
 }
 
 button[type="submit"] {
-background-color: $Yellow;
+background-color: $yellow;
 padding: 10px;
-border: 2px solid $DarkYellow;
+border: 2px solid $darkYellow;
 border-radius: 10px;
 font-size: 24px;
 font-family: merriwhether, serif;
@@ -69,7 +69,7 @@ cursor: pointer;
 }
 
 button:hover {
-background-color: $DarkYellow;
+background-color: $darkYellow;
 }
 
 .textbox {
@@ -97,7 +97,7 @@ padding: 0;
 h1 {
 text-align: center;
 padding: 10px 20px;
-background-color: $Blue;
+background-color: $blue;
 margin: 0;
 font-size: 24px;
 }
@@ -117,8 +117,8 @@ font-size: 16px;
 }
 
 form {
-background-color: $Grey;
-border: 1 px solid $DarkBlue;
+background-color: $grey;
+border: 1 px solid $darkBlue;
 padding: 20px;
 border-radius: 5px;
 max-width: 400px;
@@ -126,13 +126,13 @@ display: flex;
 flex-direction: column;
 margin: 20px;
 width: 100%;
-box-shadow: 2px 4px 4px -4px $Black;
+box-shadow: 2px 4px 4px -4px $black;
 }
 
 input[type="email"], select, textarea {
 width: 100%;
 padding: 10px;
-border: 1px solid $Black;
+border: 1px solid $black;
 border-radius: 4px;
 box-sizing: border-box;
 font-size: 16px;
@@ -144,9 +144,9 @@ font-size: 18px;
 }
 
 button[type="submit"] {
-background-color: $Yellow;
+background-color: $yellow;
 padding: 10px;
-border: 2px solid $DarkYellow;
+border: 2px solid $darkYellow;
 border-radius: 10px;
 font-size: 24px;
 font-family: merriwhether, serif;
@@ -154,7 +154,7 @@ cursor: pointer;
 }
 
 button:hover {
-background-color: $DarkYellow;
+background-color: $darkYellow;
 }
 
 .textbox {
