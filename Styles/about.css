@@ -198,18 +198,6 @@ footer span {
     src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
   }
 }
-section {
-  padding: 30px 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-}
-section .aboutUs {
-  align-self: center;
-}
-
 .history, .employees {
   padding: 30px 30px;
   display: flex;
