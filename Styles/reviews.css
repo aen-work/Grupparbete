@@ -199,10 +199,6 @@ btn:hover {
 }
 
 body {
-  background-image: url("../Pics/body.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0;
   height: 100%;
 }
@@ -264,6 +260,7 @@ main .bg {
 .rev_2 {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   position: relative;
   border-radius: 20px;
   padding: 20px 40px;
@@ -274,7 +271,7 @@ main .bg {
 }
 .rev_2 p:first-of-type {
   font-weight: bold;
-  padding: 40px 0 0 15px;
+  padding: 0 0 0 15px;
 }
 
 .profil {
@@ -331,6 +328,11 @@ main .bg {
     justify-content: space-around;
     margin: 10px 30px;
   }
+  .rev_2col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .div456 {
     display: flex;
     align-items: center;
@@ -353,11 +355,17 @@ main .bg {
     margin: 0 120px;
     margin-bottom: 20px;
   }
+  .con2 .rev_2 .abs {
+    top: 135px;
+    left: 150px;
+  }
   body {
-    background-image: url("../Pics/body.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     margin: 0;
+  }
+}
+@media (min-width: 1352px) {
+  .con2 .rev_2 .abs {
+    top: 25px;
+    left: 260px;
   }
 }/*# sourceMappingURL=reviews.css.map */
