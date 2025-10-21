@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
@@ -182,11 +183,6 @@ footer span {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
-@font-face {
-  * {
-    font-family: "Merriweather", "Times New Roman", Times, serif;
-  }
-}
 btn {
   background-color: rgb(244, 202, 142);
   text-align: center;
@@ -198,38 +194,22 @@ btn:hover {
   background-color: rgb(220, 170, 101);
 }
 
-header {
-  background-color: rgb(199, 199, 199);
-  width: 100%;
-  text-align: center;
-}
-
-header img {
-  width: 200px;
-}
-
-span figure img {
-  width: 100%;
-}
-
+/* Vi har redan denna stilen i base.scss från header, så den är onödig här
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
   text-align: center;
 }
-
 header img {
   width: 200px;
 }
-
 span figure img {
   width: 100%;
 }
 
-.desktop {
+.desktop{
   display: none;
-}
-
+} */
 .rev_2.pri {
   display: none;
 }
