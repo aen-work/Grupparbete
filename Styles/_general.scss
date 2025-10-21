@@ -10,6 +10,20 @@
     
 }
 
+// 
+
+btn {
+    background-color: $Yellow;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid $DarkYellow;
+    color: black;
+    &:hover{
+        background-color: $DarkYellow;
+    }
+}
+
+
 
 // HÄR! osäker hur vi ska ha!
 
