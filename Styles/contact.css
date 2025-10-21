@@ -182,11 +182,6 @@ footer span {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
-@font-face {
-  * {
-    font-family: "Merriweather", "Times New Roman", Times, serif;
-  }
-}
 btn {
   background-color: rgb(244, 202, 142);
   text-align: center;
@@ -299,8 +294,8 @@ button:hover {
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 957px) {
@@ -392,7 +387,7 @@ button:hover {
   .contact-info {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=contact.css.map */
