@@ -182,22 +182,10 @@ footer span {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
-@font-face {
-  * {
-    font-family: "Merriweather", "Times New Roman", Times, serif;
-    src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
-  }
-}
 * {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
-@font-face {
-  * {
-    font-family: "Merriweather", "Times New Roman", Times, serif;
-    src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
-  }
-}
 .history, .employees {
   padding: 30px 30px;
   display: flex;
@@ -206,6 +194,7 @@ footer span {
   align-items: center;
   height: 70vh;
   margin: 15px;
+  gap: 20px;
 }
 .history h3, .employees h3 {
   align-self: center;
