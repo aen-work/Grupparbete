@@ -1,6 +1,10 @@
-html{
-    font-family: 'Merriweather', 'Times New Roman', Times, serif;
-}
+// DEN HÄR TAR VI BORT. 
+// Lade in den i general
+// html{
+//     font-family: 'Merriweather', 'Times New Roman', Times, serif;
+// }
+
+
 
 header{
     background-color: rgb(168, 197, 226);
@@ -93,7 +97,7 @@ li{
     display: block;
 }
 
-@import './colors';
+@import './variables';
 
 @media (min-width: 957px) {
 
@@ -140,13 +144,13 @@ li{
         justify-content: flex-start;
         align-items: center;
         a{
-            background-color: $Yellow;
+            background-color: $yellow;
             padding: 10px 20px;
-            border: 2px solid $DarkYellow;
+            border: 2px solid $darkYellow;
             border-radius: 10px;
             cursor: pointer;
             &:hover{
-                background-color: $DarkYellow;
+                background-color: $darkYellow;
             }
         }
     }

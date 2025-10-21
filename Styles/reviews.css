@@ -1,13 +1,8 @@
-html {
-  font-family: "Merriweather", "Times New Roman", Times, serif;
-}
-
 header {
   background-color: rgb(168, 197, 226);
   width: 100%;
   text-align: center;
 }
-
 header img {
   width: 200px;
 }
@@ -50,7 +45,6 @@ li {
   margin: 0;
   list-style: none;
 }
-
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -136,7 +130,7 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(233, 190, 129);
+    background-color: rgb(244, 202, 142);
     padding: 10px 20px;
     border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
@@ -182,6 +176,16 @@ footer span {
     width: 10rem;
     height: 5rem;
     margin-top: 50px;
+  }
+}
+* {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
+@font-face {
+  * {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
   }
 }
 body {

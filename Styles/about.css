@@ -130,7 +130,7 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(233, 190, 129);
+    background-color: rgb(244, 202, 142);
     padding: 10px 20px;
     border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
@@ -179,24 +179,32 @@ footer span {
   }
 }
 * {
-  font-family: "Merriweather";
+  font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25px;
+@font-face {
+  * {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
+  }
 }
-section .aboutUs {
-  align-self: center;
+* {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
+@font-face {
+  * {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
+  }
+}
 .history, .employees {
+  padding: 30px 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
   margin: 15px;
 }
 .history h3, .employees h3 {
@@ -209,7 +217,6 @@ section .aboutUs {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
   flex-wrap: wrap;
   gap: 2px;
 }
@@ -221,15 +228,15 @@ section .aboutUs {
      object-fit: cover;
 }
 
-.readMore {
-  background-color: rgb(110, 110, 201);
-  border-radius: 20px;
-  padding: 10px;
+.btnReadmore {
+  background: rgb(244, 202, 142);
+  border: rgb(220, 170, 101);
+  border-radius: 50px;
+  padding: 20px;
 }
-.readMore :first-child {
-  color: white;
+.btnReadmore:hover {
+  background: rgb(255, 211, 149);
 }
-
-.readMore:hover {
-  background-color: rgb(121, 121, 200);
+.btnReadmore :first-child {
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=about.css.map */

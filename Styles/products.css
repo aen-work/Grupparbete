@@ -7,7 +7,6 @@ header {
   width: 100%;
   text-align: center;
 }
-
 header img {
   width: 200px;
 }
@@ -50,7 +49,6 @@ li {
   margin: 0;
   list-style: none;
 }
-
 li a {
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -136,7 +134,7 @@ li a {
     align-items: center;
   }
   .nav1 a {
-    background-color: rgb(233, 190, 129);
+    background-color: rgb(244, 202, 142);
     padding: 10px 20px;
     border: 2px solid rgb(220, 170, 101);
     border-radius: 10px;
@@ -184,6 +182,10 @@ footer span {
     margin-top: 50px;
   }
 }
+@font-face {
+  font-family: Merriweather;
+  src: "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap";
+}
 body {
   background-image: url("../Pics/body.jpg");
   background-position: center;
@@ -218,7 +220,7 @@ main span div {
 
 main span div a {
   margin: 30px 40px;
-  background-color: rgb(233, 190, 129);
+  background-color: rgb(244, 202, 142);
   padding: 10px 40px;
   border: 2px solid rgb(220, 170, 101);
   border-radius: 10px;
@@ -245,7 +247,7 @@ main span div a:hover {
   align-self: center;
   padding: 20px 30px;
   font-size: 25px;
-  background-color: rgb(233, 190, 129);
+  background-color: rgb(244, 202, 142);
   border: 2px solid rgb(220, 170, 101);
   border-radius: 10px;
   box-shadow: 10px black;

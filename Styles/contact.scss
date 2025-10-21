@@ -1,4 +1,5 @@
-@use 'base';
+@import 'base';
+@import 'colors';
 
 body {
 margin: 0;
@@ -12,23 +13,28 @@ padding: 0;
 h1 {
 text-align: center;
 padding: 10px 20px;
-background-color: rgb(168, 197, 226);
+background-color: $Blue;
 margin: 0;
 font-size: 24px;
+}
+
+img {
+    width: 50vh;
 }
 
 section {
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: center;
 margin: 0;
 font-family: merriwhether, serif;
 font-size: 16px;
 }
 
 form {
-background-color: rgb(226, 224, 224);
-border: 1 px solid rgb(171, 162, 162);
+background-color: $Grey;
+border: 1 px solid $DarkBlue;
 padding: 20px;
 border-radius: 5px;
 max-width: 400px;
@@ -36,13 +42,13 @@ display: flex;
 flex-direction: column;
 margin: 20px;
 width: 100%;
-box-shadow: 2px 4px 4px -4px black;
+box-shadow: 2px 4px 4px -4px $Black;
 }
 
 input[type="email"], select, textarea {
 width: 100%;
 padding: 10px;
-border: 1px solid black;
+border: 1px solid $Black;
 border-radius: 4px;
 box-sizing: border-box;
 font-size: 16px;
@@ -54,18 +60,17 @@ font-size: 18px;
 }
 
 button[type="submit"] {
-background-color:  rgb(244,202,142);
+background-color: $Yellow;
 padding: 10px;
-border: 2px solid rgb(220, 170, 101);
+border: 2px solid $DarkYellow;
 border-radius: 10px;
 font-size: 24px;
 font-family: merriwhether, serif;
-color: black;
 cursor: pointer;
 }
 
 button:hover {
-background-color: rgb(220,170,101);
+background-color: $DarkYellow;
 }
 
 .textbox {
@@ -77,4 +82,90 @@ font-size: 18px;
 margin-bottom: 15px;
 text-align: center;
 padding: 1px;
+}
+
+
+@media (min-width: 957px) {
+body {
+margin: 0;
+padding: 0;
+}
+
+.contact-us {
+    text-decoration: underline;
+}
+
+h1 {
+text-align: center;
+padding: 10px 20px;
+background-color: $Blue;
+margin: 0;
+font-size: 24px;
+}
+
+img {
+    width: 50vh;
+}
+
+section {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 0;
+font-family: merriwhether, serif;
+font-size: 16px;
+}
+
+form {
+background-color: $Grey;
+border: 1 px solid $DarkBlue;
+padding: 20px;
+border-radius: 5px;
+max-width: 400px;
+display: flex;
+flex-direction: column;
+margin: 20px;
+width: 100%;
+box-shadow: 2px 4px 4px -4px $Black;
+}
+
+input[type="email"], select, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid $Black;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 16px;
+font-family: monospace;
+}
+
+label, dropdownlabel {
+font-size: 18px;
+}
+
+button[type="submit"] {
+background-color: $Yellow;
+padding: 10px;
+border: 2px solid $DarkYellow;
+border-radius: 10px;
+font-size: 24px;
+font-family: merriwhether, serif;
+cursor: pointer;
+}
+
+button:hover {
+background-color: $DarkYellow;
+}
+
+.textbox {
+width: 100%;
+/*border: 1px solid black;*/
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 18px;
+margin-bottom: 15px;
+text-align: center;
+padding: 1px;
+}
 }
