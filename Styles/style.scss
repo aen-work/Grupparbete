@@ -123,6 +123,9 @@ article {
   border: 2px solid $darkBlue ;
   border-radius: 10px;
   padding: 10px 30px;
+  &:hover{
+    background-color: $darkBlue;
+  }
 }
 .trust {
     background-color: rgb(209, 226, 243);

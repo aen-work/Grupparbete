@@ -365,6 +365,9 @@ article p {
   border-radius: 10px;
   padding: 10px 30px;
 }
+.trust a:hover {
+  background-color: rgb(151, 181, 226);
+}
 
 .trust {
   background-color: rgb(209, 226, 243);
