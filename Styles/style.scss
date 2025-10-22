@@ -1,25 +1,25 @@
 @import "./base";
 
-.rev_2.pri{
+.rev_2.pri {
   display: none;
 }
 
-figure{
+figure {
     display: flex;
     flex-direction: column;
     margin: 0;
     position: relative;
-    h1{
+    h1 {
       background-color: $blue;
       padding: 10px;
       text-align: center;
       font-size: 20px;
       border-radius: 10px;
     }
-    a{
+    a {
       background-color: $yellow;
-      padding: 20px;
-      font-size: 20px;
+      padding: 12px;
+      font-size: 14px;
       text-align: center;
       border-radius: 50%;
       width: 150px;
@@ -28,9 +28,12 @@ figure{
       top: 14rem;
       right: 5rem;
       color: black;
-      &:hover{
+      &:hover {
         background-color: $darkYellow;
       }
+    }
+    img {
+      width: 25%;
     }
 }
 

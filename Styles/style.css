@@ -217,8 +217,8 @@ figure h1 {
 }
 figure a {
   background-color: rgb(244, 202, 142);
-  padding: 20px;
-  font-size: 20px;
+  padding: 12px;
+  font-size: 14px;
   text-align: center;
   border-radius: 50%;
   width: 150px;
@@ -230,6 +230,9 @@ figure a {
 }
 figure a:hover {
   background-color: rgb(220, 170, 101);
+}
+figure img {
+  width: 25%;
 }
 
 article {
