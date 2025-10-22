@@ -29,8 +29,8 @@ figure {
       width: 150px;
       border: 6px solid $darkYellow;
       position: absolute;
-      top: 14rem;
-      right: 5rem;
+      top: 8rem;
+      right: 0.2rem;
       color: black;
       &:hover {
         background-color: $darkYellow;
@@ -215,12 +215,11 @@ article {
     }
 
     figure h1 {
-      font-size: 60px;
-      margin-top: 40px;
+      background-color: $blue;
+      padding: 20px 0;
       text-align: center;
-      width: 90%;
-      padding: 20px 0 ;
-      margin-bottom: 10px;
+      font-size: 40px;
+      width: 100%;
     }
     figure {
       align-items: center;
