@@ -182,6 +182,11 @@ footer span {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
+@font-face {
+  * {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+  }
+}
 btn {
   background-color: rgb(244, 202, 142);
   text-align: center;
@@ -259,7 +264,7 @@ btn:hover {
     align-self: flex-start;
   }
   .about :nth-child(2) {
-    align-self: flex-start;
+    align-self: flex-end;
     width: 1000px;
   }
   .about img {
