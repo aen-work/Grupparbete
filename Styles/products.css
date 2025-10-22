@@ -235,6 +235,11 @@ footer span {
   font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
+@font-face {
+  * {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+  }
+}
 btn {
   background-color: rgb(244, 202, 142);
   text-align: center;
