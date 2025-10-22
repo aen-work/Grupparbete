@@ -406,7 +406,7 @@ article p {
     width: 250px;
   }
   figure img {
-    width: 80vh;
+    width: 100%;
   }
   article {
     align-content: center;
