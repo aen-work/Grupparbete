@@ -60,25 +60,28 @@ main {
   article {
     @include flexPrimary(row);
   }
-  .about:first-child{
-    @include flexPrimary(column);
-  }
   .about {
     @include flexDirection(row);
     justify-content: space-between;
-  
+    }
+  .about:first-child{
+    @include flexPrimary(column);
+    align-items: flex-start;
   }
+ 
   .aboutUs {
     // width:100%;
+    @include flexDirection(column);
   }
   .ourVision {
     // @include flexDirection(column);
   }
   .employees {
     @include flexDirection(row);
+    flex-wrap: wrap;
     > div {
-      width: 500px;
-      flex-wrap: wrap;
+      // width: 500px;
+      // flex-wrap: wrap;
     } 
   }
   
