@@ -1,5 +1,9 @@
 @import "./base";
 
+
+body{
+  margin: 0;
+}
 .rev_2.pri {
   display: none;
 }
@@ -10,10 +14,9 @@ figure {
     position: relative;
     h1 {
       background-color: $blue;
-      padding: 10px;
+      padding: 20px 0;
       text-align: center;
       font-size: 20px;
-      border-radius: 10px;
       width: 100%;
       
     }
@@ -34,7 +37,6 @@ figure {
       }
     }
     img {
-      margin-top: 50px;
       width: 100%;
     }
 }
