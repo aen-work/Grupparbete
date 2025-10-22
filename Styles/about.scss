@@ -55,7 +55,6 @@ main {
   
   main {
     @include flexPrimary(center);
-    width: 80%;
   }
   article {
     @include flexPrimary(row);
@@ -68,21 +67,21 @@ main {
     @include flexPrimary(column);
     align-items: flex-start;
   }
- 
+
   .aboutUs {
     // width:100%;
+    @include flexDirection(row);
+  }
+  .text {
     @include flexDirection(column);
   }
-  .ourVision {
-    // @include flexDirection(column);
+  .imgOwners {
+    @include flexDirection(column);
   }
   .employees {
     @include flexDirection(row);
     flex-wrap: wrap;
-    > div {
-      // width: 500px;
-      // flex-wrap: wrap;
-    } 
+
   }
   
   .containernav {
