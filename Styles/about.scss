@@ -1,5 +1,8 @@
 @import './base';
 
+main {
+  @include flexPrimary(center);
+}
 
 .about, .employees {
   @include flexPrimary(space-between);
@@ -20,7 +23,7 @@
 
 .aboutUs, .ourVision {
   @include flexPrimary(center);
-  width: 500px;
+  // width: 500px;
   img {
     align-self: center;
   }
@@ -33,7 +36,7 @@
   div {
   @include flexPrimary(space-evenly);
   flex-wrap: wrap;
-  border-bottom: solid grey;
+  border-bottom: solid $blue;
   gap: 2px;
   padding: 30px;
   }
@@ -49,22 +52,27 @@
   // .nav2 :first-child {
   //   text-decoration: underline;
   // }
-
+  
+  main {
+    @include flexPrimary(center);
+    width: 80%;
+  }
+  article {
+    @include flexPrimary(row);
+  }
+  .about:first-child{
+    @include flexPrimary(column);
+  }
   .about {
     @include flexDirection(row);
     justify-content: space-between;
-    width: 1800px;
   
-    :first-child {
-      align-self: flex-start;
-    }
-    :nth-child(2){
-      align-self: flex-end;
-      width: 1000px;
-    }
-    img {
-      width: 500px;
-    }
+  }
+  .aboutUs {
+    // width:100%;
+  }
+  .ourVision {
+    // @include flexDirection(column);
   }
   .employees {
     @include flexDirection(row);
