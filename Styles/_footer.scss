@@ -4,6 +4,44 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    justify-content: space-around;
+    position: relative;
+}
+
+footer a.active{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.undersidor{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+}
+.footer img{
+    position: absolute;
+    bottom: 50px;
+}
+
+.sociala{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
 
 .logo{
@@ -27,5 +65,20 @@ footer span {
             height: 5rem;
             margin-top: 50px;
         }
+    footer{
+        flex-direction: row;
+        height: 200px;
+
     }
-    
+
+    .undersidor{
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .sociala{
+        flex-direction: column;
+    }
+}
