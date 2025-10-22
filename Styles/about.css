@@ -240,6 +240,24 @@ footer span {
     font-family: "Merriweather", "Times New Roman", Times, serif;
   }
 }
+btn {
+  background-color: rgb(244, 202, 142);
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid rgb(220, 170, 101);
+  color: black;
+}
+btn:hover {
+  background-color: rgb(220, 170, 101);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about, .employees {
   display: flex;
   flex-direction: column;
@@ -265,7 +283,6 @@ footer span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
 }
 .aboutUs img, .ourVision img {
   align-self: center;
@@ -281,7 +298,7 @@ footer span {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: solid grey;
+  border-bottom: solid rgb(168, 197, 226);
   gap: 2px;
   padding: 30px;
 }
@@ -294,23 +311,31 @@ footer span {
 }
 
 @media (min-width: 957px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+  }
+  .about:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+  }
   .about {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    width: 1800px;
-  }
-  .about :first-child {
-    align-self: flex-start;
-  }
-  .about :nth-child(2) {
-    align-self: flex-end;
-    width: 1000px;
-  }
-  .about img {
-    width: 500px;
   }
   .employees {
     display: flex;
