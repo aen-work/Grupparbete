@@ -474,11 +474,19 @@ article p {
     align-items: center;
   }
   figure a {
-    top: 20rem;
-    right: 7rem;
-    padding: 80px;
-    font-size: 35px;
-    width: 250px;
+    padding: 22px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    border: 6px solid rgb(220, 170, 101);
+    position: absolute;
+    top: 14rem;
+    right: 5rem;
+    color: black;
+  }
+  figure a:hover {
+    background-color: rgb(220, 170, 101);
   }
   figure img {
     width: 100%;
