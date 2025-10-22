@@ -39,7 +39,7 @@ figure {
     }
 }
 
-article{
+article {
   position: relative;
   h2{
       text-align: center;
@@ -47,10 +47,10 @@ article{
       padding: 10px;
       border-radius: 10px;
   }
-  img{
+  img {
       width: 100%;
   }
-  p{
+  p {
     position: absolute;
     background-color: rgba(0,0,0,0.5);
     top: 14rem;
@@ -64,7 +64,7 @@ article{
   margin-top: 20px;
   
   
-  a{
+  a {
     color: black;
     font-size: 24px;
       background-color: $blue;
@@ -74,14 +74,14 @@ article{
       width: 100%;
   }
 }
-.reviews_cont{
+.reviews_cont {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.rev_2{
+.rev_2 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -99,18 +99,18 @@ article{
     }
 }
 
-.profil{
+.profil {
     width: 120px;
 }
 
-.stars{
+.stars {
     width: 150px;
     position: absolute;
     top: 6rem;
     left: 9rem;
 }
 
-.trust a{
+.trust a {
   color: black;
   text-align: center;
   background-color: $blue;
@@ -119,7 +119,7 @@ article{
   border-radius: 10px;
   width: 100%;
 }
-.trust{
+.trust {
     background-color: rgb(209, 226, 243);
     display: flex;
     flex-direction: column;
@@ -128,19 +128,19 @@ article{
     margin-bottom: 10px;
     width: 100%;
 }
-.brands{
+.brands {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
 
-.brand{
+.brand {
     width: 10%;
 }
 
 @media (min-width: 957px) {
-    header{
+    header {
         text-align: left;
         position: sticky;
         top: 0;
@@ -150,57 +150,57 @@ article{
         width: 250px;
         padding-left: 30px;
     }
-    nav{
+    nav {
         background-color:rgb(255, 255, 255) ;
         position: sticky;
         top: 131px;
         z-index: 1;
         padding: 0;    
     }
-    .meny{
+    .meny {
         display: none;
     }
-    .rev_2.pri{
+    .rev_2.pri {
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
     }
 
-    .desktop{
+    .desktop {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: stretch ;
     }
-    .containernav{
+    .containernav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 30px;
-        a{
+        a {
             font-size: 20px;
             margin: 0 30px;
         }
     }
 
-    .nav1{
+    .nav1 {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        a{
+        a {
             background-color: $yellow;
             padding: 10px 20px;
             border: 2px solid $darkYellow;
             border-radius: 10px;
             cursor: pointer;
-            &:hover{
+            &:hover {
               background-color: $darkYellow;
             }
         }
     }
 
-    .nav2{
+    .nav2 {
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -210,7 +210,7 @@ article{
         display: none;
     }
 
-    figure h1{
+    figure h1 {
       font-size: 60px;
       margin-top: 40px;
       text-align: center;
@@ -218,7 +218,7 @@ article{
       padding: 20px 0 ;
       margin-bottom: 10px;
     }
-    figure{
+    figure {
       align-items: center;
       a {
         top: 20rem;
@@ -227,28 +227,28 @@ article{
         font-size: 35px;
         width: 250px;
       }
-      img{
+      img {
         width: 100%;
       }
     }
-    article{
+    article {
       align-content: center;
-      h2{
+      h2 {
         font-size: 50px;
         width: 50%;
       }
     }
-    .reviews_cont{
+    .reviews_cont {
       display: flex;
 
     }
-    .rev_2{
+    .rev_2 {
       margin: 20px;
     }
-    .rev_2 .profil{
+    .rev_2 .profil {
       width: 120px;
     }
-    .rev_2.pri{
+    .rev_2.pri {
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
