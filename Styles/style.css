@@ -283,8 +283,8 @@ figure a {
   width: 150px;
   border: 6px solid rgb(220, 170, 101);
   position: absolute;
-  top: 14rem;
-  right: 5rem;
+  top: 8rem;
+  right: 0.2rem;
   color: black;
 }
 figure a:hover {
