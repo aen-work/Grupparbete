@@ -316,18 +316,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
   }
   article {
     display: flex;
     flex-direction: column;
     justify-content: row;
-    align-items: center;
-  }
-  .about:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: column;
     align-items: center;
   }
   .about {
@@ -337,14 +330,36 @@ main {
     align-items: center;
     justify-content: space-between;
   }
-  .employees {
+  .about:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    align-items: flex-start;
+  }
+  .aboutUs {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .employees > div {
-    width: 500px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgOwners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .employees {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
   .containernav {

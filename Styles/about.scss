@@ -55,31 +55,33 @@ main {
   
   main {
     @include flexPrimary(center);
-    width: 80%;
   }
   article {
     @include flexPrimary(row);
   }
-  .about:first-child{
-    @include flexPrimary(column);
-  }
   .about {
     @include flexDirection(row);
     justify-content: space-between;
-  
+    }
+  .about:first-child{
+    @include flexPrimary(column);
+    align-items: flex-start;
   }
+
   .aboutUs {
     // width:100%;
+    @include flexDirection(row);
   }
-  .ourVision {
-    // @include flexDirection(column);
+  .text {
+    @include flexDirection(column);
+  }
+  .imgOwners {
+    @include flexDirection(column);
   }
   .employees {
     @include flexDirection(row);
-    > div {
-      width: 500px;
-      flex-wrap: wrap;
-    } 
+    flex-wrap: wrap;
+
   }
   
   .containernav {
