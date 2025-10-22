@@ -324,12 +324,6 @@ main {
     justify-content: row;
     align-items: center;
   }
-  .about:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: column;
-    align-items: center;
-  }
   .about {
     display: flex;
     flex-direction: row;
@@ -337,14 +331,24 @@ main {
     align-items: center;
     justify-content: space-between;
   }
+  .about:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    align-items: flex-start;
+  }
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .employees {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-  .employees > div {
-    width: 500px;
     flex-wrap: wrap;
   }
   .containernav {
