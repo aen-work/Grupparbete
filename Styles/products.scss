@@ -30,6 +30,7 @@ main {
         align-items: center;
         h1{
             z-index: 1;
+            margin: 10px;
         }
         .options{
             display: flex;
@@ -37,6 +38,9 @@ main {
             justify-content: center;
             flex-wrap: wrap;
             z-index: 1;
+            a{
+                margin:30px;
+            }
         }
 }
 }
