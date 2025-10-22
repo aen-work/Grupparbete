@@ -258,6 +258,8 @@ btn:hover {
 figure {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   position: relative;
 }
@@ -285,7 +287,8 @@ figure a:hover {
   background-color: rgb(220, 170, 101);
 }
 figure img {
-  width: 25%;
+  margin-top: 50px;
+  width: 100%;
 }
 
 article {
@@ -311,7 +314,7 @@ article p {
 .review-box {
   padding: 20px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .review-box a {
   color: black;
