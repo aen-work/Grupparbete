@@ -316,7 +316,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
   }
   article {
     display: flex;
@@ -339,6 +338,18 @@ main {
     align-items: flex-start;
   }
   .aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgOwners {
     display: flex;
     flex-direction: column;
     justify-content: center;
