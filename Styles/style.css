@@ -269,6 +269,7 @@ figure h1 {
   text-align: center;
   font-size: 20px;
   border-radius: 10px;
+  width: 100%;
 }
 figure a {
   background-color: rgb(244, 202, 142);
@@ -315,6 +316,7 @@ article p {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+  width: 100%;
 }
 .review-box a {
   color: black;
@@ -359,10 +361,10 @@ article p {
   color: black;
   text-align: center;
   background-color: rgb(168, 197, 226);
-  padding: 10px 50px;
   font-size: 24px;
   border: 2px solid rgb(151, 181, 226);
   border-radius: 10px;
+  width: 100%;
 }
 
 .trust {
@@ -371,8 +373,8 @@ article p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .brands {
