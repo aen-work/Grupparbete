@@ -222,11 +222,19 @@ article {
     figure {
       align-items: center;
       a {
-        top: 20rem;
-        right: 7rem;
-        padding: 80px;
-        font-size: 35px;
-        width: 250px;
+      padding: 22px;
+      font-size: 28px;
+      text-align: center;
+      border-radius: 50%;
+      width: 300px;
+      border: 6px solid $darkYellow;
+      position: absolute;
+      top: 14rem;
+      right: 5rem;
+      color: black;
+      &:hover {
+        background-color: $darkYellow;
+      }
       }
       img {
         width: 100%;
