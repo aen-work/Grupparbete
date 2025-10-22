@@ -265,9 +265,9 @@ h1, h2 {
   width: 400px;
 }
 
-main span {
+main > div {
   padding-top: 50px;
-  background-image: url("../Pics/bild med tjej och hund.jpg");
+  background-image: url("../Pics/bild-med-tjej-och-hund.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,18 +278,18 @@ main span {
   justify-content: space-around;
   align-items: center;
 }
-main span h1 {
+main > div h1 {
   z-index: 1;
   margin: 10px;
 }
-main span .options {
+main > div .options {
   display: flex;
   padding: 10px 15px;
   justify-content: center;
   flex-wrap: wrap;
   z-index: 1;
 }
-main span .options a {
+main > div .options a {
   margin: 30px;
 }
 
@@ -303,7 +303,7 @@ main span .options a {
   pointer-events: none;
 }
 
-main span div a {
+main div div a {
   margin: 50px 40px;
   background-color: rgb(244, 202, 142);
   padding: 10px 40px;
