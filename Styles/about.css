@@ -259,7 +259,7 @@ btn:hover {
     align-self: flex-start;
   }
   .about :nth-child(2) {
-    align-self: flex-end;
+    align-self: flex-start;
     width: 1000px;
   }
   .about img {
