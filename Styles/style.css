@@ -316,15 +316,15 @@ article p {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-  width: 100%;
 }
 .review-box a {
   color: black;
   font-size: 24px;
   background-color: rgb(168, 197, 226);
-  padding: 10px 50px;
   border: 2px solid rgb(151, 181, 226);
   border-radius: 10px;
+  display: block;
+  width: 100%;
 }
 
 .reviews_cont {

@@ -63,14 +63,16 @@ article{
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-  width: 100%;
+  
+  
   a{
     color: black;
     font-size: 24px;
       background-color: $blue;
-      padding: 10px 50px;
       border: 2px solid $darkBlue;
       border-radius: 10px;
+      display:block;
+      width: 100%;
   }
 }
 .reviews_cont{
