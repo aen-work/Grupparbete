@@ -18,19 +18,20 @@ figure {
       text-align: center;
       font-size: 20px;
       width: 100%;
+      border: 2px solid $darkBlue;
       
     }
     a {
       background-color: $yellow;
-      padding: 12px;
-      font-size: 14px;
+      padding: 3%;
+      font-size: 84%;
       text-align: center;
       border-radius: 50%;
       width: 150px;
       border: 6px solid $darkYellow;
       position: absolute;
-      top: 8rem;
-      right: 0.2rem;
+      top: 30%;
+      right: 10%;
       color: black;
       &:hover {
         background-color: $darkYellow;
@@ -63,7 +64,8 @@ article {
 
 .review-box {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   
   
   a {
@@ -109,7 +111,6 @@ article {
 
 .stars {
     width: 150px;
-    position: absolute;
     top: 6rem;
     left: 9rem;
 }
@@ -120,8 +121,11 @@ article {
   background-color: $blue;
   font-size: 24px;
   border: 2px solid $darkBlue ;
-  padding: 10px 0;
-  width: 100%;
+  border-radius: 10px;
+  padding: 10px 30px;
+  &:hover{
+    background-color: $darkBlue;
+  }
 }
 .trust {
     background-color: rgb(209, 226, 243);
@@ -129,8 +133,9 @@ article {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
+    padding-top: 30px;
 }
 .brands {
     display: flex;
@@ -221,22 +226,28 @@ article {
       font-size: 40px;
       width: 100%;
     }
+
     figure {
       align-items: center;
-      a {
-      padding: 22px;
-      font-size: 28px;
-      text-align: center;
-      border-radius: 50%;
-      width: 300px;
-      border: 6px solid $darkYellow;
-      position: absolute;
-      top: 14rem;
-      right: 5rem;
-      color: black;
-      &:hover {
-        background-color: $darkYellow;
-      }
+      a  {
+    top: 30%m;
+    right: 7%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid $darkYellow;
+    position: absolute;
+    color: black;
+    padding: 70px;
+    width: 20%;
+    font-size: 30px;
+    width: 250px;
+  }
+  figure a:hover{
+    background-color: $darkYellow;
+  }
+  figure h1{
+    margin: 20px 0 10px 0;
+  }
       }
       img {
         width: 100%;
@@ -264,4 +275,5 @@ article {
       flex-wrap: wrap;
       padding: 20px;
     }
-}
+
+

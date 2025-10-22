@@ -72,7 +72,7 @@ li a {
   position: absolute;
   background-color: rgb(255, 255, 255);
   min-width: 300px;
-  z-index: 1;
+  z-index: 2;
   top: 100%;
   left: 0;
   margin: 0;
@@ -101,7 +101,7 @@ li a {
     background-color: rgb(255, 255, 255);
     position: sticky;
     top: 131px;
-    z-index: 1;
+    z-index: 2;
     padding: 0;
   }
   .meny {
@@ -240,17 +240,6 @@ footer span {
     font-family: "Merriweather", "Times New Roman", Times, serif;
   }
 }
-btn {
-  background-color: rgb(244, 202, 142);
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid rgb(220, 170, 101);
-  color: black;
-}
-btn:hover {
-  background-color: rgb(220, 170, 101);
-}
-
 body {
   width: 100%;
   margin: 0;
