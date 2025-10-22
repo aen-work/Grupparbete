@@ -462,12 +462,11 @@ article p {
     display: none;
   }
   figure h1 {
-    font-size: 60px;
-    margin-top: 40px;
-    text-align: center;
-    width: 90%;
+    background-color: rgb(168, 197, 226);
     padding: 20px 0;
-    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
   }
   figure {
     align-items: center;
