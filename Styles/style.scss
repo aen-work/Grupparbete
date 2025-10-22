@@ -227,16 +227,25 @@ article {
 
     figure {
       align-items: center;
-      a {
-        top: 30%;
-        right: 7%;
-        padding: 70px;
-        font-size: 30px;
-        width: 20%;
-        
-      }
-      h1{
-        margin: 20px 0 10px 0;
+      a  {
+    top: 30%m;
+    right: 7%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid $yellow;
+    position: absolute;
+    color: black;
+    padding: 70px;
+    width: 20%;
+    font-size: 30px;
+    width: 250px;
+  }
+  figure a:hover{
+    background-color: $darkYellow;
+  }
+  figure h1{
+    margin: 20px 0 10px 0;
+  }
       }
       img {
         width: 100%;
@@ -264,4 +273,5 @@ article {
       flex-wrap: wrap;
       padding: 20px;
     }
-}
+
+

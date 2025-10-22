@@ -477,37 +477,50 @@ article p {
     align-items: center;
   }
   figure a {
-    top: 30%;
+    top: 30% m;
     right: 7%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid rgb(244, 202, 142);
+    position: absolute;
+    color: black;
     padding: 70px;
-    font-size: 30px;
     width: 20%;
+    font-size: 30px;
+    width: 250px;
   }
-  figure h1 {
+  figure figure a:hover {
+    background-color: rgb(220, 170, 101);
+  }
+  figure figure h1 {
     margin: 20px 0 10px 0;
   }
-  figure img {
+  img {
     width: 100%;
   }
-  article {
-    align-content: center;
-  }
-  article h2 {
-    font-size: 50px;
-    width: 50%;
-  }
-  .reviews_cont {
-    display: flex;
-  }
-  .rev_2 {
-    margin: 20px;
-  }
-  .rev_2 .profil {
-    width: 120px;
-  }
-  .rev_2.pri {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+}
+article {
+  align-content: center;
+}
+article h2 {
+  font-size: 50px;
+  width: 50%;
+}
+
+.reviews_cont {
+  display: flex;
+}
+
+.rev_2 {
+  margin: 20px;
+}
+
+.rev_2 .profil {
+  width: 120px;
+}
+
+.rev_2.pri {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
