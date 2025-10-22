@@ -72,7 +72,7 @@ li a {
   position: absolute;
   background-color: rgb(255, 255, 255);
   min-width: 300px;
-  z-index: 1;
+  z-index: 2;
   top: 100%;
   left: 0;
   margin: 0;
@@ -101,7 +101,7 @@ li a {
     background-color: rgb(255, 255, 255);
     position: sticky;
     top: 131px;
-    z-index: 1;
+    z-index: 2;
     padding: 0;
   }
   .meny {
@@ -273,18 +273,19 @@ figure h1 {
   text-align: center;
   font-size: 20px;
   width: 100%;
+  border: 2px solid rgb(151, 181, 226);
 }
 figure a {
   background-color: rgb(244, 202, 142);
-  padding: 12px;
-  font-size: 14px;
+  padding: 3%;
+  font-size: 84%;
   text-align: center;
   border-radius: 50%;
   width: 150px;
   border: 6px solid rgb(220, 170, 101);
   position: absolute;
-  top: 8rem;
-  right: 0.2rem;
+  top: 30%;
+  right: 10%;
   color: black;
 }
 figure a:hover {
@@ -316,7 +317,8 @@ article p {
 
 .review-box {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .review-box a {
   color: black;
@@ -372,8 +374,8 @@ article p {
   background-color: rgb(168, 197, 226);
   font-size: 24px;
   border: 2px solid rgb(151, 181, 226);
-  padding: 10px 0;
-  width: 100%;
+  border-radius: 10px;
+  padding: 10px 30px;
 }
 
 .trust {
@@ -382,8 +384,9 @@ article p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 100%;
+  padding-top: 30px;
 }
 
 .brands {
@@ -474,19 +477,23 @@ article p {
     align-items: center;
   }
   figure a {
-    padding: 22px;
-    font-size: 28px;
+    top: 30%m;
+    right: 7%;
     text-align: center;
     border-radius: 50%;
-    width: 300px;
-    border: 6px solid rgb(220, 170, 101);
+    border: 6px solid rgb(244, 202, 142) ;
     position: absolute;
-    top: 14rem;
-    right: 5rem;
     color: black;
+    padding: 70px;
+    width: 20%;
+    font-size: 30px;
+    width: 250px;
   }
-  figure a:hover {
+  figure a:hover{
     background-color: rgb(220, 170, 101);
+  }
+  figure h1{
+    margin: 20px 0 10px 0;
   }
   figure img {
     width: 100%;
