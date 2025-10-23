@@ -246,6 +246,7 @@ body {
 
 p {
   letter-spacing: 1.5px;
+  margin: 0px 100px;
 }
 
 main {
@@ -268,6 +269,10 @@ main {
   width: 500px;
 }
 
+.text {
+  padding: 30px;
+}
+
 .containerPic {
   display: flex;
   flex-direction: column;
@@ -283,13 +288,15 @@ main {
 }
 .aboutUs img, .ourVision img {
   align-self: center;
+  margin-top: 25px;
 }
 .aboutUs h1, .aboutUs h2, .ourVision h1, .ourVision h2 {
   text-align: center;
+  margin-top: 40px;
 }
 
 .ourVision {
-  padding-top: 50px;
+  align-self: center;
 }
 
 .ourTeam {
@@ -307,10 +314,13 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 2px;
-  padding: 30px;
+  padding: 10px 30px 10px 30px;
 }
-.employees .containerEmployee1, .employees .containerEmployee2, .employees .containerEmployee3, .employees .containerEmployee4, .employees .containerEmployee5 {
+.employees .containerEmployee {
   border-bottom: solid rgb(168, 197, 226);
+}
+.employees .imgEmployee {
+  padding: 0 125px;
 }
 .employees img {
   width: 250px;
@@ -332,7 +342,10 @@ main {
     flex-direction: column;
     justify-content: row;
     align-items: center;
-    border: solid rgb(168, 197, 226);
+  }
+  h1, h2 {
+    margin-bottom: 40px;
+    align-self: center;
   }
   .about {
     display: flex;
@@ -349,32 +362,30 @@ main {
     align-items: flex-start;
   }
   .aboutUs {
+    max-width: 1800px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .ourVision {
-    height: 400px;
+  .space {
+    height: 100px;
   }
   .imgOwners {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  h2 {
-    align-self: flex-start;
-    margin-left: 390px;
-  }
-  .ourTeam {
-    align-self: flex-start;
   }
   .employees {
     display: flex;
@@ -394,6 +405,10 @@ main {
   }
   .employees > div h3 {
     align-self: flex-start;
+    margin-left: 100px;
+  }
+  .employees .containerEmployee5 {
+    border: none;
   }
   .containernav {
     display: flex;
