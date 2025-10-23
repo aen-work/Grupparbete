@@ -1,12 +1,14 @@
 @import './base';
 
+p {
+  letter-spacing: 1.5px;
+}
 main {
   @include flexPrimary(center);
 }
 
 .about, .employees {
   @include flexPrimary(space-between);
-  // border-bottom: solid $blue;
   h3 {
     align-self: center;
   }
@@ -28,18 +30,16 @@ main {
   h1, h2 {
     text-align: center;
   }
+
 }
 .ourVision {
   padding-top: 50px;
 }
 
-
 .ourTeam {
   @include flexPrimary(center);
   margin-top: 50px;
-  border-top: solid $blue;
 }
-
 
 .employees {
   div {
@@ -59,16 +59,13 @@ main {
   }
 }
 
-@media (min-width:957px) {
-  // .nav2 :first-child {
-  //   text-decoration: underline;
-  // }
-  
+@media (min-width:957px) {  
   main {
     @include flexPrimary(center);
   }
   article {
     @include flexPrimary(row);
+    border: solid $blue;
   }
   .about {
     @include flexDirection(row);
@@ -86,12 +83,15 @@ main {
   .text {
     @include flexDirection(column);
   }
+  .ourVision {
+    height: 400px;
+  }
   .imgOwners {
     @include flexDirection(column);
   }
   h2 {
       align-self: flex-start;
-      margin-left: 280px;
+      margin-left: 390px;
     }
   .ourTeam {
     align-self: flex-start;
@@ -109,9 +109,7 @@ main {
         align-self: flex-start;
       }
     }
-
   }
-  
   .containernav {
     display: flex;
     justify-content: space-between;

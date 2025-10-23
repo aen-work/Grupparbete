@@ -244,6 +244,10 @@ body {
   margin: 0;
 }
 
+p {
+  letter-spacing: 1.5px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -294,7 +298,6 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  border-top: solid rgb(168, 197, 226);
 }
 
 .employees div {
@@ -329,6 +332,7 @@ main {
     flex-direction: column;
     justify-content: row;
     align-items: center;
+    border: solid rgb(168, 197, 226);
   }
   .about {
     display: flex;
@@ -356,6 +360,9 @@ main {
     justify-content: center;
     align-items: center;
   }
+  .ourVision {
+    height: 400px;
+  }
   .imgOwners {
     display: flex;
     flex-direction: column;
@@ -364,7 +371,7 @@ main {
   }
   h2 {
     align-self: flex-start;
-    margin-left: 280px;
+    margin-left: 390px;
   }
   .ourTeam {
     align-self: flex-start;
