@@ -6,20 +6,18 @@ main {
 
 .about, .employees {
   @include flexPrimary(space-between);
-
+  // border-bottom: solid $blue;
   h3 {
     align-self: center;
   }
   .owners {
     width: 500px;
   }
-
 }
 
 .containerPic {
   @include flexPrimary(center);
 }
-
 
 .aboutUs, .ourVision {
   @include flexPrimary(center);
@@ -27,18 +25,31 @@ main {
   img {
     align-self: center;
   }
+  h1, h2 {
+    text-align: center;
+  }
 }
 .ourVision {
   padding-top: 50px;
 }
 
+
+.ourTeam {
+  @include flexPrimary(center);
+  margin-top: 50px;
+  border-top: solid $blue;
+}
+
+
 .employees {
   div {
   @include flexPrimary(space-evenly);
   flex-wrap: wrap;
-  border-bottom: solid $blue;
   gap: 2px;
   padding: 30px;
+  }
+  .containerEmployee1, .containerEmployee2, .containerEmployee3, .containerEmployee4, .containerEmployee5{
+    border-bottom: solid $blue;
   }
   img {
   width: 250px;
@@ -78,9 +89,26 @@ main {
   .imgOwners {
     @include flexDirection(column);
   }
+  h2 {
+      align-self: flex-start;
+      margin-left: 280px;
+    }
+  .ourTeam {
+    align-self: flex-start;
+  }
   .employees {
     @include flexDirection(row);
     flex-wrap: wrap;
+    justify-content: flex-start;
+
+    > div {
+      @include flexDirection(row);
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      h3 {
+        align-self: flex-start;
+      }
+    }
 
   }
   

@@ -244,6 +244,10 @@ body {
   margin: 0;
 }
 
+/*Moved to general.scss
+body{
+  margin: 0;
+}*/
 .rev_2.pri {
   display: none;
 }
