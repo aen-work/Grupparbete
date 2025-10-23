@@ -9,7 +9,7 @@ body{
   display: none;
 }
 
-figure {
+span {
     @include flexPrimary(center);
     margin: 0;
     position: relative;
@@ -220,7 +220,7 @@ article {
         display: none;
     }
 
-    figure h1 {
+    span h1 {
       background-color: $blue;
       padding: 20px 0;
       text-align: center;
@@ -228,7 +228,7 @@ article {
       width: 100%;
     }
 
-    figure {
+    span {
       align-items: center;
       a  {
     top: 30%m;
@@ -243,10 +243,10 @@ article {
     font-size: 30px;
     width: 250px;
   }
-  figure a:hover{
+  span a:hover{
     background-color: $darkYellow;
   }
-  figure h1{
+  span h1{
     margin: 20px 0 10px 0;
   }
       }
