@@ -251,6 +251,10 @@ btn:hover {
   background-color: rgb(220, 170, 101);
 }
 
+p {
+  letter-spacing: 1.5px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -293,6 +297,7 @@ main {
 
 .ourVision {
   padding-top: 50px;
+  border-bottom: solid rgb(168, 197, 226);
 }
 
 .ourTeam {
@@ -301,7 +306,6 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  border-top: solid rgb(168, 197, 226);
 }
 
 .employees div {
@@ -371,7 +375,7 @@ main {
   }
   h2 {
     align-self: flex-start;
-    margin-left: 280px;
+    margin-left: 390px;
   }
   .ourTeam {
     align-self: flex-start;
