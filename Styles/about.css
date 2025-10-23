@@ -240,15 +240,8 @@ footer span {
     font-family: "Merriweather", "Times New Roman", Times, serif;
   }
 }
-btn {
-  background-color: rgb(244, 202, 142);
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid rgb(220, 170, 101);
-  color: black;
-}
-btn:hover {
-  background-color: rgb(220, 170, 101);
+body {
+  margin: 0;
 }
 
 main {
