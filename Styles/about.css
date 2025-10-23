@@ -240,6 +240,10 @@ footer span {
     font-family: "Merriweather", "Times New Roman", Times, serif;
   }
 }
+body {
+  margin: 0;
+}
+
 main {
   display: flex;
   flex-direction: column;
