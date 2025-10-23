@@ -252,7 +252,7 @@ div.rev_2.pri {
   display: none;
 }
 
-figure {
+span {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,7 +260,7 @@ figure {
   margin: 0;
   position: relative;
 }
-figure h1 {
+span h1 {
   background-color: rgb(168, 197, 226);
   padding: 20px 0;
   text-align: center;
@@ -268,7 +268,7 @@ figure h1 {
   width: 100%;
   border: 2px solid rgb(151, 181, 226);
 }
-figure a {
+span a {
   background-color: rgb(244, 202, 142);
   padding: 3%;
   font-size: 84%;
@@ -281,10 +281,10 @@ figure a {
   right: 10%;
   color: black;
 }
-figure a:hover {
+span a:hover {
   background-color: rgb(220, 170, 101);
 }
-figure img {
+span img {
   width: 100%;
 }
 
@@ -461,17 +461,17 @@ article p {
   nav img {
     display: none;
   }
-  figure h1 {
+  span h1 {
     background-color: rgb(168, 197, 226);
     padding: 20px 0;
     text-align: center;
     font-size: 40px;
     width: 100%;
   }
-  figure {
+  span {
     align-items: center;
   }
-  figure a {
+  span a {
     top: 30% m;
     right: 7%;
     text-align: center;
@@ -484,10 +484,10 @@ article p {
     font-size: 30px;
     width: 250px;
   }
-  figure figure a:hover {
+  span span a:hover {
     background-color: rgb(220, 170, 101);
   }
-  figure figure h1 {
+  span span h1 {
     margin: 20px 0 10px 0;
   }
   img {
