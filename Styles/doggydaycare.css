@@ -479,4 +479,18 @@ main .lista p {
   div.lista {
     padding: 10px;
   }
+}
+@media (max-width: 645px) {
+  .lista {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  div.text {
+    font-size: 85%;
+  }
+}
+@media (max-width: 498px) {
+  div.text {
+    font-size: 70%;
+  }
 }/*# sourceMappingURL=doggydaycare.css.map */
