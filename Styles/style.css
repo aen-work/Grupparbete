@@ -252,7 +252,7 @@ body{
   display: none;
 }
 
-span {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,7 +260,7 @@ span {
   margin: 0;
   position: relative;
 }
-span h1 {
+.hero h1 {
   background-color: rgb(168, 197, 226);
   padding: 20px 0;
   text-align: center;
@@ -268,7 +268,7 @@ span h1 {
   width: 100%;
   border: 2px solid rgb(151, 181, 226);
 }
-span a {
+.hero a {
   background-color: rgb(244, 202, 142);
   padding: 3%;
   font-size: 84%;
@@ -281,10 +281,10 @@ span a {
   right: 10%;
   color: black;
 }
-span a:hover {
+.hero a:hover {
   background-color: rgb(220, 170, 101);
 }
-span img {
+.hero img {
   width: 100%;
 }
 
@@ -461,18 +461,18 @@ article p {
   nav img {
     display: none;
   }
-  span h1 {
+  .hero h1 {
     background-color: rgb(168, 197, 226);
     padding: 20px 0;
     text-align: center;
     font-size: 40px;
     width: 100%;
   }
-  span {
+  .hero {
     align-items: center;
   }
-  span a {
-    top: 30% m;
+  .hero a {
+    top: 30%;
     right: 7%;
     text-align: center;
     border-radius: 50%;
@@ -484,10 +484,10 @@ article p {
     font-size: 30px;
     width: 250px;
   }
-  span span a:hover {
+  .hero .hero a:hover {
     background-color: rgb(220, 170, 101);
   }
-  span span h1 {
+  .hero .hero h1 {
     margin: 20px 0 10px 0;
   }
   img {
