@@ -1,5 +1,8 @@
 @import './base';
 
+p {
+  letter-spacing: 1.5px;
+}
 main {
   @include flexPrimary(center);
 }
@@ -28,16 +31,17 @@ main {
   h1, h2 {
     text-align: center;
   }
+
 }
 .ourVision {
   padding-top: 50px;
+  border-bottom: solid $blue;
 }
 
 
 .ourTeam {
   @include flexPrimary(center);
   margin-top: 50px;
-  border-top: solid $blue;
 }
 
 
@@ -59,11 +63,7 @@ main {
   }
 }
 
-@media (min-width:957px) {
-  // .nav2 :first-child {
-  //   text-decoration: underline;
-  // }
-  
+@media (min-width:957px) {  
   main {
     @include flexPrimary(center);
   }
@@ -91,7 +91,7 @@ main {
   }
   h2 {
       align-self: flex-start;
-      margin-left: 280px;
+      margin-left: 390px;
     }
   .ourTeam {
     align-self: flex-start;
@@ -109,9 +109,7 @@ main {
         align-self: flex-start;
       }
     }
-
   }
-  
   .containernav {
     display: flex;
     justify-content: space-between;
