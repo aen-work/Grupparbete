@@ -265,8 +265,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  font-size: 16px;
 }
 section form {
   background-color: rgb(209, 208, 208);
@@ -295,9 +293,6 @@ section form input[type=email], section form select, section form textarea {
   box-sizing: border-box;
   font-size: 16px;
   font-family: monospace;
-}
-section form label, section form dropdownlabel {
-  font-size: 18px;
 }
 section form button[type=submit] {
   background-color: rgb(244, 202, 142);
@@ -343,8 +338,6 @@ section .contact-info .info-box img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    font-size: 16px;
   }
   section form {
     background-color: rgb(209, 208, 208);

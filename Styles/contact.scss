@@ -15,8 +15,6 @@ font-size: 24px;
 section {
     @include flexPrimary(space-evenly);
     @include flexDirection(column);
-    margin: 0;
-    font-size: 16px;
         form {
         background-color: $grey;
         border: 1 px solid $darkBlue;
@@ -43,9 +41,6 @@ section {
             box-sizing: border-box;
             font-size: 16px;
             font-family: monospace;
-            }
-            label, dropdownlabel {
-            font-size: 18px;
             }
             button[type="submit"] {
             background-color: $yellow;
@@ -81,8 +76,6 @@ section {
 section {
     @include flexPrimary(space-evenly);
     @include flexDirection(row);
-    margin: 0;
-    font-size: 16px;
         form {
         background-color: $grey;
         border: 1 px solid $darkBlue;
