@@ -406,4 +406,30 @@ main .bg {
     background-repeat: no-repeat;
     margin: 0;
   }
+}
+@media (min-width: 1400px) {
+  .div123 .rev_2 {
+    width: 650px;
+  }
+}
+@media (min-width: 1356px) {
+  .stars {
+    top: 20px;
+  }
+}
+@media (max-width: 642px) {
+  .reviews_con {
+    flex-wrap: wrap;
+  }
+  .rev_1:last-child {
+    display: none;
+  }
+}
+@media (max-width: 458px) {
+  .rev_1:first-child {
+    display: none;
+  }
+  .rev_1 {
+    width: 90%;
+  }
 }/*# sourceMappingURL=reviews.css.map */
