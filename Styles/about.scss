@@ -9,7 +9,6 @@ main {
 
 .about, .employees {
   @include flexPrimary(space-between);
-  // border-bottom: solid $blue;
   h3 {
     align-self: center;
   }
@@ -35,15 +34,12 @@ main {
 }
 .ourVision {
   padding-top: 50px;
-  border-bottom: solid $blue;
 }
-
 
 .ourTeam {
   @include flexPrimary(center);
   margin-top: 50px;
 }
-
 
 .employees {
   div {
@@ -69,6 +65,7 @@ main {
   }
   article {
     @include flexPrimary(row);
+    border: solid $blue;
   }
   .about {
     @include flexDirection(row);
@@ -85,6 +82,9 @@ main {
   }
   .text {
     @include flexDirection(column);
+  }
+  .ourVision {
+    height: 400px;
   }
   .imgOwners {
     @include flexDirection(column);
