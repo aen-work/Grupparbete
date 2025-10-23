@@ -248,7 +248,7 @@ body {
 body{
   margin: 0;
 }*/
-.rev_2.pri {
+div.rev_2.pri {
   display: none;
 }
 
@@ -416,7 +416,7 @@ article p {
   .meny {
     display: none;
   }
-  .rev_2.pri {
+  div.rev_2.pri {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
