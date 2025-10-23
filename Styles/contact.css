@@ -267,8 +267,6 @@ section form .textbox h1 {
   background-color: rgb(168, 197, 226);
   margin: 0;
   padding: 10px 20px;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 section form input[type=email], section form select, section form textarea {
   width: 100%;
@@ -284,6 +282,7 @@ section form label {
   font-weight: bold;
 }
 section form button[type=submit] {
+  width: 100%;
   background-color: rgb(244, 202, 142);
   padding: 10px;
   border: 2px solid rgb(220, 170, 101);
