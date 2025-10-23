@@ -9,7 +9,7 @@ div.rev_2.pri {
   display: none;
 }
 
-span {
+.hero {
     @include flexPrimary(center);
     margin: 0;
     position: relative;
@@ -220,7 +220,7 @@ article {
         display: none;
     }
 
-    span h1 {
+    .hero h1 {
       background-color: $blue;
       padding: 20px 0;
       text-align: center;
@@ -228,10 +228,10 @@ article {
       width: 100%;
     }
 
-    span {
+    .hero {
       align-items: center;
       a  {
-    top: 30%m;
+    top: 30%;
     right: 7%;
     text-align: center;
     border-radius: 50%;
@@ -243,10 +243,10 @@ article {
     font-size: 30px;
     width: 250px;
   }
-  span a:hover{
+  .hero a:hover{
     background-color: $darkYellow;
   }
-  span h1{
+  .hero h1{
     margin: 20px 0 10px 0;
   }
       }
