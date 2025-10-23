@@ -244,18 +244,6 @@ body {
   margin: 0;
 }
 
-.contact-us {
-  text-decoration: underline;
-}
-
-h1 {
-  text-align: center;
-  padding: 10px 20px;
-  background-color: rgb(168, 197, 226);
-  margin: 0;
-  font-size: 24px;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -268,7 +256,6 @@ section {
 }
 section form {
   background-color: rgb(209, 208, 208);
-  border: 1 px solid rgb(151, 181, 226);
   padding: 20px;
   border-radius: 5px;
   max-width: 400px;
@@ -276,14 +263,12 @@ section form {
   margin: 20px;
   box-shadow: 2px 4px 4px -4px rgb(0, 0, 0);
 }
-section form .textbox {
-  width: 100%;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding: 1px;
+section form .textbox h1 {
+  background-color: rgb(168, 197, 226);
+  margin: 0;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 section form input[type=email], section form select, section form textarea {
   width: 100%;
@@ -293,6 +278,9 @@ section form input[type=email], section form select, section form textarea {
   box-sizing: border-box;
   font-size: 16px;
   font-family: monospace;
+}
+section form label {
+  font-size: 18px;
 }
 section form button[type=submit] {
   background-color: rgb(244, 202, 142);
@@ -338,6 +326,8 @@ section .contact-info .info-box img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    font-size: 16px;
   }
   section form {
     background-color: rgb(209, 208, 208);
