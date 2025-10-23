@@ -240,15 +240,8 @@ footer span {
     font-family: "Merriweather", "Times New Roman", Times, serif;
   }
 }
-btn {
-  background-color: rgb(244, 202, 142);
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid rgb(220, 170, 101);
-  color: black;
-}
-btn:hover {
-  background-color: rgb(220, 170, 101);
+body {
+  margin: 0;
 }
 
 main {
@@ -287,9 +280,21 @@ main {
 .aboutUs img, .ourVision img {
   align-self: center;
 }
+.aboutUs h1, .aboutUs h2, .ourVision h1, .ourVision h2 {
+  text-align: center;
+}
 
 .ourVision {
   padding-top: 50px;
+}
+
+.ourTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-top: solid rgb(168, 197, 226);
 }
 
 .employees div {
@@ -298,9 +303,11 @@ main {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: solid rgb(168, 197, 226);
   gap: 2px;
   padding: 30px;
+}
+.employees .containerEmployee1, .employees .containerEmployee2, .employees .containerEmployee3, .employees .containerEmployee4, .employees .containerEmployee5 {
+  border-bottom: solid rgb(168, 197, 226);
 }
 .employees img {
   width: 250px;
@@ -355,12 +362,31 @@ main {
     justify-content: center;
     align-items: center;
   }
+  h2 {
+    align-self: flex-start;
+    margin-left: 280px;
+  }
+  .ourTeam {
+    align-self: flex-start;
+  }
   .employees {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .employees > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .employees > div h3 {
+    align-self: flex-start;
   }
   .containernav {
     display: flex;
