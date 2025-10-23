@@ -2,6 +2,7 @@
 
 p {
   letter-spacing: 1.5px;
+  margin: 0px 100px;
 }
 main {
   @include flexPrimary(center);
@@ -17,6 +18,10 @@ main {
   }
 }
 
+.text {
+  padding: 30px;
+}
+
 .containerPic {
   @include flexPrimary(center);
 }
@@ -26,14 +31,17 @@ main {
   // width: 500px;
   img {
     align-self: center;
+    margin-top: 25px;
   }
   h1, h2 {
     text-align: center;
+    margin-top: 40px;
   }
-
 }
+
+
 .ourVision {
-  padding-top: 50px;
+  align-self: center;
 }
 
 .ourTeam {
@@ -43,29 +51,36 @@ main {
 
 .employees {
   div {
-  @include flexPrimary(space-evenly);
-  flex-wrap: wrap;
-  gap: 2px;
-  padding: 30px;
+    @include flexPrimary(space-evenly);
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 10px 30px 10px 30px;
   }
-  .containerEmployee1, .containerEmployee2, .containerEmployee3, .containerEmployee4, .containerEmployee5{
+  .containerEmployee{
     border-bottom: solid $blue;
   }
+  .imgEmployee {
+    padding: 0 125px;
+  }
   img {
-  width: 250px;
-  border-radius: 50%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+    width: 250px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
 }
 
-@media (min-width:957px) {  
+@media (min-width:957px) { 
   main {
     @include flexPrimary(center);
   }
   article {
     @include flexPrimary(row);
-    border: solid $blue;
+    // border: solid $blue;
+  }
+  h1, h2 {
+    margin-bottom: 40px;
+    align-self: center;
   }
   .about {
     @include flexDirection(row);
@@ -77,24 +92,22 @@ main {
   }
 
   .aboutUs {
-    // width:100%;
+    max-width: 1800px;
     @include flexDirection(row);
+    padding: 0px;
   }
   .text {
     @include flexDirection(column);
+    align-self: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+
   }
-  .ourVision {
-    height: 400px;
+  .space {
+    height: 100px;
   }
   .imgOwners {
     @include flexDirection(column);
-  }
-  h2 {
-      align-self: flex-start;
-      margin-left: 390px;
-    }
-  .ourTeam {
-    align-self: flex-start;
   }
   .employees {
     @include flexDirection(row);
@@ -107,7 +120,11 @@ main {
       flex-wrap: nowrap;
       h3 {
         align-self: flex-start;
+        margin-left: 100px;
       }
+    }
+    .containerEmployee5 {
+      border: none;
     }
   }
   .containernav {
@@ -116,5 +133,6 @@ main {
     align-items: center;
     padding: 10px 30px;
   }
+  
 
 }
